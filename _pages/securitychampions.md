@@ -29,14 +29,48 @@ IT Security is implementing Security by Design which is an is an approach to sof
 *  To become a security influencer and promote the department’s security agenda;
 *  To remind developers that application security is their responsibility. 
 
-## Your Role as a Security Champion
-*  Be responsible in ensuring Security Requirements and Controls are implemented in solutions;
-* Have the ability to address security risks in solutions;
-* Inform IT Security of any potential risk driven by any kind of additions/changes made to a solution (This includes Architecture, components, third party solutions, etc.);
-* Share knowledge with your team;
-* Keep up-to-date with Security Training / Awareness / Guidance / Mentoring;
-* Promote best practices and 
-* Participate actively in a network of Security Champions. 
+## My Roles and Responsibilities as a Security Champion
+### Roles and Responsibilities
+
+- Implementing and managing security tools;
+- Validating and assigning vulnerabilities for mitigation;
+- Ensuring all documentation is created for security; 
+- Performing threat modeling on the architecture and the new functionality.
+- Responsible to ensure Security Requirements and Controls are implemented in solutions
+- Notify IT Security of any potential risk driven by any kind of additions/changes made to a solution (Architecture, components, third party solutions, etc.)
+- Knowledge sharing with the team
+- Keep up-to-date with Security Training / Awareness / Guidance / Mentoring
+- Promote best practices
+- Participate actively in a network of Security Champions. 
+
+### Implementing and managing security tools
+
+### Training
+
+Customized training will be offered to the Security Champions and will be provided at a date to be determined. The training will touch on the following topics:
+
+- Security by design
+- ITSG-33 Security Controls;
+- Role Based Access Controls (RBAC) walkthrough;
+- Security Assessment & Authorization (SA&A) walkthrough;
+- Threat Modeling.
+
+Additional security training is strongly recommended. You can find a list of recommended courses below. Group sessions may be held at specific dates.
+
+- [Security Training](/appsecuritytraining)
+
+### Collaboration
+
+As a Security Champion, you will be invited to share security information and collaborate on the various platforms of the **Security Champions Network**:
+
+
+- [GCConnex](https://gcconnex.gc.ca/groups/profile/59572173/esdc-security-champions-network-reseau-des-champions-de-la-securite-dedsc?language=en)
+- [Security Champions Team on MS Teams](https://teams.microsoft.com/l/team/19%3aaa7f40a6029a44cdbf864f7dc8bc5a62%40thread.tacv2/conversations?groupId=bea80905-7f0f-432d-9a83-60561c1efcd2&tenantId=9ed55846-8a81-4246-acd8-b1a01abfc0d1)
+- Use and promote the Security Knowledge Base (upcoming)
+
+## Security Tools Management
+
+- Security Tools implementation strategy
 
 ## The End Goal
 **Security by Design is a partnership between Business, IITB Solution Team and IT Security.**
