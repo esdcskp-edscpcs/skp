@@ -62,7 +62,7 @@ Customized training will be offered to the Security Champions and will be provid
 
 Additional security training is strongly recommended. You can find a list of recommended courses below. Group sessions may be held at specific dates.
 
-- [Security Training]({{ '/' | absolute_url }}appsecuritytraining)
+- [Security Training]({{ '/' | absolute_url }}appsecuritytraining/)
 
 ### Collaboration
 
