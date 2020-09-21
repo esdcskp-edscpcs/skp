@@ -18,9 +18,9 @@ permalink: /developercommunity/
 	</div>
 	<div class="panel-body">
 		<ul>
-		{% for trainingitem in site.data.developercommunity.topic-items %}
+	{% for trainingitem in site.data.developercommunity.topic-items %}
 			<li><a href="{{ trainingitem.url }}">{{ trainingitem.title }}</a></li>
-		{% endfor %}
+	{% endfor %}
 		</ul>
 	</div>
 </section>
