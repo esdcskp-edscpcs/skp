@@ -1,7 +1,7 @@
 ---
-title: Recommended Tools Overview
+title: Application Security Tools
 layout: default
-permalink: /tools.html
+permalink: /appsecuritytools/
 ---
 
 <ul class="list-unstyled">

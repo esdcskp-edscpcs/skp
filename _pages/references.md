@@ -1,7 +1,7 @@
 ---
+title: References
 layout: default
-title: Guides
-permalink: /guides/
+permalink: /References/
 ---
 
 We produce guides to help developers at ESDC walk-though some complex procedures related to development.

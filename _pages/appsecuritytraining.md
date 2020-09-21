@@ -1,7 +1,7 @@
 ---
-title: Developer Community
+title: Application Security Training
 layout: no-banner
-permalink: /developercommunity/
+permalink: /appsecuritytraining/
 ---
 
 <div>
