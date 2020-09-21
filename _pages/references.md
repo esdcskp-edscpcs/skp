@@ -4,19 +4,17 @@ layout: default
 permalink: /references/
 ---
 
-We produce guides to help developers at ESDC walk-though some complex procedures related to development.
-
-{% assign guides-grouped = site.guides | group_by: 'category' %}
-{% for group in guides-grouped %}
-
-## {{ group.name }}
-
-{% for item in group.items %}
-
-### {{ item.title }}
-
-{{ item.summary }}  
-[See the guide]({{ item.url | relative_url }})
-
-{% endfor %}
+{% for resource in site.data.reference.resources %}
+<section class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title" id="{{ site.data.references.topic | slugify }}">{{ resource.topic }}</h3>
+    </div>
+    <div class="panel-body">
+		<ul>
+		{% for topicitem in resource.topicitems %}
+			<li><a href="{{ topicitem.url }}">{{ topicitem.title }}</a>
+		{% endfor %}
+		</ul>
+	</div>
+<section>
 {% endfor %}

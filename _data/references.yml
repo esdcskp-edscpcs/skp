@@ -1,0 +1,23 @@
+links:
+  - topic: "Helpful Resources"
+    topicitems:
+      - title: "Security by Design"
+        url: https://lafeeflushette.github.io/esdc-skp/security-by-design/
+      - title: "Threat Modeling"
+        url: https://lafeeflushette.github.io/esdc-skp/threat-modeling/
+      - title: "Security Controls"
+        url: https://lafeeflushette.github.io/esdc-skp/security-controls/
+      - title: "OWASP Top 10 (2017)"
+        url: https://lafeeflushette.github.io/esdc-skp/owasp-top10-2017
+      - title: "OWASP Cheat Sheet Series Project"
+        url: https://cheatsheetseries.owasp.org/
+      - title: "Microsoft Security Engineering: Secure DevOps Best Practices"
+        url: https://www.microsoft.com/en-us/securityengineering/devsecops
+      - title: "DevSecOps: Injecting Security into CD Pipelines"
+        url: https://www.atlassian.com/continuous-delivery/principles/devsecops
+      - title: "Continuous delivery pipeline 101"
+        url: https://www.atlassian.com/continuous-delivery/pipeline
+      - title: "Azure DevOps Pipelines: Leveraging OWASP ZAP in the Release Pipeline"
+        url: https://devblogs.microsoft.com/premier-developer/azure-devops-pipelines-leveraging-owasp-zap-in-the-release-pipeline/
+      - title: "What do SAST, DAST, IAST and RASP Mean to Developers?"
+        url: https://www.softwaresecured.com/what-do-sast-dast-iast-and-rasp-mean-to-developers/
