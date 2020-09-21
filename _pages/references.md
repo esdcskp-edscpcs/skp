@@ -12,7 +12,7 @@ permalink: /references/
     <div class="panel-body">
 		<ul>
 		{% for topicitem in resource.topicitems %}
-			<li><a href="{{ topicitem.url }}">{{ topicitem.title }}</a>
+			<li><a href="{{ topicitem.url }}">{{ topicitem.title }}</a></li>
 		{% endfor %}
 		</ul>
 	</div>
