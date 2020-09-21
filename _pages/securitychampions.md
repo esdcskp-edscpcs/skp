@@ -179,7 +179,7 @@ You can send a request directly into the MS Teams [Security Champions Network - 
     </summary>
     {% if product.nominatedby %}
       <p>
-		Nominated by: 
+		<span><strong>Nominated by:</strong></span> 
         {% for nominator in product.nominatedby %}
           <span class="label label-primary"><a href="mailto:{{ nominator.name }}">{{nominator.name}}</a></span>
         {% endfor %}
