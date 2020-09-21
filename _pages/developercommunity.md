@@ -11,12 +11,11 @@ permalink: /developercommunity/
 </div>
 
 {% for item in site.data.developercommunity.training %}
-
 <section class="panel panel-default">
 	<div class="panel-heading">
 		<h2 class="panel-title" id="{{ item.topic | slugify }}">{{ item.topic }}</h2>
 	</div>
-	{% if item.topicitems %>
+	{% if item.topicitems %}
 		<div class="panel-body">
 			<ul>
 		{% for topicitem in item.topicitems %}
@@ -26,5 +25,4 @@ permalink: /developercommunity/
 		</div>
 	{% endif %}
 </section>
-	
 {% endfor %}
