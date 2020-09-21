@@ -62,7 +62,7 @@ Customized training will be offered to the Security Champions and will be provid
 
 Additional security training is strongly recommended. You can find a list of recommended courses below. Group sessions may be held at specific dates.
 
-- [Security Training](/appsecuritytraining)
+- [Security Training]({{ '/' | absolute_url }}appsecuritytraining)
 
 ### Collaboration
 
@@ -70,7 +70,7 @@ As a Security Champion, you will be invited to share security information and co
 
 
 - [GCConnex](https://gcconnex.gc.ca/groups/profile/59572173/esdc-security-champions-network-reseau-des-champions-de-la-securite-dedsc?language=en)
-- [Security Champions Team on MS Teams](https://teams.microsoft.com/l/team/19%3aaa7f40a6029a44cdbf864f7dc8bc5a62%40thread.tacv2/conversations?groupId=bea80905-7f0f-432d-9a83-60561c1efcd2&tenantId=9ed55846-8a81-4246-acd8-b1a01abfc0d1)
+- [Security Champions Network on MS Teams](https://teams.microsoft.com/l/team/19%3aaa7f40a6029a44cdbf864f7dc8bc5a62%40thread.tacv2/conversations?groupId=bea80905-7f0f-432d-9a83-60561c1efcd2&tenantId=9ed55846-8a81-4246-acd8-b1a01abfc0d1)
 - Use and promote the Security Knowledge Base (upcoming)
 
 ## Security Tools Management
