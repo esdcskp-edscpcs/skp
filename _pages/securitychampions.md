@@ -4,11 +4,12 @@ layout: no-banner
 permalink: /securitychampions/
 ---
 
+# Table of Contents
 - [Welcome Security Champion](#welcome-security-champion)
   * [Background](#background)
   * [The Security Champion Objectives](#the-security-champion-objectives)
   * [Your Role as a Security Champion](#your-role-as-a-security-champion)
-  * [The End Goal](#the-end-goal-)
+  * [The End Goal](#the-end-goal)
   * [Getting to know our Partners](#getting-to-know-our-partners)
     + [Business](#business)
     + [The IT Security Teams](#the-it-security-teams)
