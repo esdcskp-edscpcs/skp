@@ -5,7 +5,7 @@ permalink: /security-by-design/
 ---
 
 # Table of Contents
-- [**Security by Design in ESDC**](#security-by-design-in-esdc)
+- [Security by Design in ESDC](#security-by-design-in-esdc)
 - [Security by Design according to OWASP](#security-by-design-according-to-owasp)
   * [Asset classification](#asset-classification)
   * [About attackers](#about-attackers)
