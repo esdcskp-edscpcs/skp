@@ -11,16 +11,18 @@ permalink: /developercommunity/
 </div>
 
 {% for item in site.data.developercommunity.training %}
-	<section class="panel panel-default">
-		<div class="panel-heading">
-			<h2 class="panel-title" id="{{ item.topic | slugify }}">{{ item.topic }}</h2>
-		</div>
-		<div class="panel-body">
-			{% for trainingitem in site.data.developercommunity.topic-items %}
-				<ul>
-					<li><a href="{{ trainingitem.url }}">{{ trainingitem.title }}</a></li>
-				</ul>
-			{% endfor %}
-		</div>
-	</section>
+
+<section class="panel panel-default">
+	<div class="panel-heading">
+		<h2 class="panel-title" id="{{ item.topic | slugify }}">{{ item.topic }}</h2>
+	</div>
+	<div class="panel-body">
+		{% for trainingitem in site.data.developercommunity.topic-items %}
+			<ul>
+				<li><a href="{{ trainingitem.url }}">{{ trainingitem.title }}</a></li>
+			</ul>
+		{% endfor %}
+	</div>
+</section>
+	
 {% endfor %}
