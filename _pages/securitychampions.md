@@ -179,8 +179,9 @@ You can send a request directly into the MS Teams [Security Champions Network - 
     </summary>
     {% if product.nominatedby %}
       <p>
+		Nominated by: 
         {% for nominator in product.nominatedby %}
-          Nominated by: <span class="label label-secondary"><a href="mailto:{{ nominator.name }}">{{nominator.name}}</a></span>
+          <span class="label label-primary"><a href="mailto:{{ nominator.name }}">{{nominator.name}}</a></span>
         {% endfor %}
       </p>
     {% endif %}
