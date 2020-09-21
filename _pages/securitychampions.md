@@ -170,20 +170,33 @@ You can send a request directly into the MS Teams [Security Champions Network - 
 
 # Our Security Champions
 
-## Artificial Intelligence Centre of Excellence (AI CoE)
-
-**Nominated by:** [Mailloux, Annick [NC]](mailto:Mailloux, Annick [NC])
-
-|**Name**|**Phone Number**|
-| ------ | ------ |
-|[Guimont, Charles CM](mailto:Guimont, Charles CM)|-|
-|[Beauchamp, Francis FB](mailto:Beauchamp, Francis FB)|819-654-0514|
-|[Turner, Ken M [NC]](mailto:Turner, Ken M [NC])|819-654-1301|
-
-## Corporate Correspondance Solutions (CCS)
-
-**Nominated by:** [Squibb, Lemonte L [NC]](mailto:Squibb, Lemonte L [NC]) and [Rivard, Stéphane SG [NC]](mailto:Rivard, Stéphane SG [NC])
-
-|**Name**|**Phone Number**|
-| ------ | ------ |
-|[Nadeau, Jamie J [NC]](mailto:Nadeau, Jamie J [NC])|819-654-0673|
+<ul class="list-unstyled">
+{% for product in site.data.appsecuritytools.products %}
+  <li>
+  <details>
+    <summary>
+      <h2 class="h3" id="{{ name | slugify }}">{{ product.name }}</h2>
+    </summary>
+    {% if product.nominatedby %}
+      <p>
+        {% for nominator in product.nominatedby %}
+          <span class="label label-primary"><a href="mailto:{{ nominator.name }}">{{nominator.name}}</a></span>
+        {% endfor %}
+      </p>
+    {% endif %}
+    <ul class="list-group list-inline row mrgn-lft-0 mrgn-rght-0">
+      {% for nominee in product.nominees %}
+        <li class="list-group-item col-md-4 brdr-rds-0">
+          <h3 class="list-group-item-heading" id="{{ nominee.name | slugify }}"><a href="mailto:{{ nominee.name }}">{{ nominee.name }}</a></h3>
+          <ul class="list-group-item-text list-inline">
+            {% if nominee.phone %}
+              <li>{{nominee.phone}}</li>
+            {% endif %}
+          </ul>
+        </li>
+      {% endfor %}
+    </ul>
+  </details>
+  </li>
+{% endfor %}
+</ul>
