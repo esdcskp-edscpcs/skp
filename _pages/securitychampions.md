@@ -4,6 +4,16 @@ layout: no-banner
 permalink: /securitychampions/
 ---
 
+- [Welcome Security Champion](#welcome-security-champion)
+  * [Background](#background)
+  * [The Security Champion Objectives are as follows:](#the-security-champion-objectives-are-as-follows-)
+  * [Your Role as a Security Champion is to:](#your-role-as-a-security-champion-is-to-)
+  * [The End Goal:](#the-end-goal-)
+  * [Getting to know our Partners:](#getting-to-know-our-partners-)
+    + [Business](#business)
+    + [The IT Security Teams:](#the-it-security-teams-)
+  * [Security Assessment Approach](#security-assessment-approach)
+  
 # Welcome Security Champion
 We are pleased to have you be the Point of Contact between your team and IT Security.  As IT Security cannot be present in all management and team environments, your role is critical to ensure there are no security gaps in your process and/or application. 
 
