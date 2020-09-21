@@ -25,7 +25,7 @@ references:
         url: https://lafeeflushette.github.io/esdc-skp/owasp-top10-2017
       - title: OWASP Cheat Sheet Series Project
         url: https://cheatsheetseries.owasp.org/
-      - title: Microsoft Security Engineering: Secure DevOps Best Practices
+      - title: "Microsoft Security Engineering: Secure DevOps Best Practices"
         url: https://www.microsoft.com/en-us/securityengineering/devsecops
       - title: DevSecOps: Injecting Security into CD Pipelines
         url: https://www.atlassian.com/continuous-delivery/principles/devsecops
