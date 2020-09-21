@@ -12,18 +12,18 @@
 
 products:
   - name: "Artificial Intelligence Centre of Excellence (AI CoE)"
-    - nomination:
-      - nominatedby: "Mailloux, Annick [NC]"
-    - nominees:
+    nominatedby:
+      - name: "Mailloux, Annick [NC]"
+    nominees:
       - name: "Guimont, Charles CM"
       - name: "Beauchamp, Francis FB"
         phone: "819-654-0514"
       - name: "Turner, Ken M [NC]"
         phone: "819-654-1301"
   - name: "Corporate Correspondance Solutions (CCS)"
-    - nomination:
-      - nominatedby: "Squibb, Lemonte L [NC]"
-      - nominatedby: "Rivard, Stéphane SG [NC]"
-    - nominees:
+    nominatedby:
+      - name: "Squibb, Lemonte L [NC]"
+      - name: "Rivard, Stéphane SG [NC]"
+    nominees:
       - name: "Nadeau, Jamie J [NC]"
         phone: "819-654-0673"
