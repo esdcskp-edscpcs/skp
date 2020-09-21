@@ -24,7 +24,7 @@ permalink: /security-by-design/
     + [Fix security issues correctly](#fix-security-issues-correctly)
 
 
-# **Security by Design in ESDC**
+# Security by Design in ESDC
 *Security by Design is an approach to software and hardware development that seeks to make systems as free of vulnerabilities and impervious to attack as possible. It is the process that integrates security in the system development lifecycle process (SDLC).*
 
 * Currently when solutions are developed, security assurance is performed at the end of the project resulting in ineffective mitigation.  
