@@ -24,8 +24,6 @@ permalink: /securitychampions/
   * [Details](#details)
   * [How can I become a Security Champion](#how-can-i-become-a-security-champion)
 - [Our Security Champions](#our-security-champions)
-  * [Artificial Intelligence Centre of Excellence (AI CoE)](#artificial-intelligence-centre-of-excellence-ai-coe)
-  * [Corporate Correspondance Solutions (CCS)](#corporate-correspondance-solutions-ccs)
   
 # Security Champions Overview
 
