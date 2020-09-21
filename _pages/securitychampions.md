@@ -50,6 +50,10 @@ IT Security is implementing Security by Design which is an is an approach to sof
 
 ### Implementing and managing security tools
 
+You will have the responsibility to demonstrate to developers how to integrate and configure various application security tools into their CI/CD pipeline and support them if required.
+
+- [Application Security Tools & Guides]({{ '/' | absolute_url }}appsecuritytools/)
+
 ### Training
 
 Customized training will be offered to the Security Champions and will be provided at a date to be determined. The training will touch on the following topics:
