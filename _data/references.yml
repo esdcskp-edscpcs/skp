@@ -2,7 +2,7 @@ resources:
   - topic: "Helpful Resources"
     topicitems:
       - title: "Security by Design"
-        url: https://lafeeflushette.github.io/esdc-skp/security-by-design/
+        url: "/security-by-design/"
       - title: "Threat Modeling"
         url: https://lafeeflushette.github.io/esdc-skp/threat-modeling/
       - title: "Security Controls"
