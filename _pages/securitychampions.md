@@ -22,9 +22,9 @@ permalink: /securitychampions/
 - [Become a Security Champion](#become-a-security-champion)
   * [Reasons to become a Security Champion](#reasons-to-become-a-security-champion)
   * [Details](#details)
+  * [How can I become a Security Champion](#how-can-i-become-a-security-champion)
   
-# Welcome Security Champion
-We are pleased to have you be the Point of Contact between your team and IT Security.  As IT Security cannot be present in all management and team environments, your role is critical to ensure there are no security gaps in your process and/or application. 
+# Security Champions Overview
 
 ## Background
 IT Security is implementing Security by Design which is an is an approach to software and hardware development that seeks to make systems as free of vulnerabilities and impervious to attack as possible.  It is the process that integrates security in the system development lifecycle process (SDLC).  Given today’s dynamic threat environment IT Security can no longer be an afterthought. IITB is therefore integrating Security by Design within ESDC’s SDLC process. This means: 
@@ -37,7 +37,7 @@ IT Security is implementing Security by Design which is an is an approach to sof
 *  To become a security influencer and promote the department’s security agenda;
 *  To remind developers that application security is their responsibility. 
 
-## My Roles and Responsibilities as a Security Champion
+## Roles and Responsibilities as a Security Champion
 ### Roles and Responsibilities
 
 - Implementing and managing security tools;
@@ -154,6 +154,14 @@ Do you want to become a participating member of the Security Network Champion?
 **If you answered yes to one of the above,** then you are a good candidate to be a Security Champion. 
 
 ## Details
+
 The role of a Security Champion is to be a Point of Contact representing IT Security in your Solution Team/ Application Development Team. 
-Security training and access to Security Subject Matter Experts and Knowledge Base will help you grow into the security subject-matter expert in your team.  This will aid you to become the security influencer in your team where you will be active in reminding your team members that security is their responsibility. You will also be playing a key role in promoting the department’s security agenda. 
+
+Security training and access to Security Subject Matter Experts and Knowledge Base will help you grow into the security subject-matter expert in your team. This will aid you to become the security influencer in your team where you will be active in reminding your team members that security is their responsibility. You will also be playing a key role in promoting the department's security agenda. 
+
 In addition, you will become a participating member of the Security Champion Network and will have the opportunity to share information and learn from other Security Champions.
+
+## How can I become a Security Champion
+
+You can send a request directly into the MS Teams [Security Champions Network - Become a Security Champion channel](https://teams.microsoft.com/l/channel/19%3acc911cac1b4b4d1f9f66544125b384ac%40thread.tacv2/Become%2520a%2520Security%2520Champion?groupId=bea80905-7f0f-432d-9a83-60561c1efcd2&tenantId=9ed55846-8a81-4246-acd8-b1a01abfc0d1).
+
