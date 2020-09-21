@@ -16,11 +16,11 @@ permalink: /developercommunity/
 	<div class="panel-heading">
 		<h2 class="panel-title" id="{{ item.topic | slugify }}">{{ item.topic }}</h2>
 	</div>
-	{% if item.topic-items %>
+	{% if item.topicitems %>
 		<div class="panel-body">
 			<ul>
-		{% for topic-item in item.topic-items %}
-				<li><a href="{{ topic-item.url }}">{{ topic-item.title }}</a></li>
+		{% for topicitem in item.topicitems %}
+				<li><a href="{{ topicitem.url }}">{{ topicitem.title }}</a></li>
 		{% endfor %}
 			</ul>
 		</div>
