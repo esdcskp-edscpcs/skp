@@ -17,11 +17,11 @@ permalink: /developercommunity/
 		<h2 class="panel-title" id="{{ item.topic | slugify }}">{{ item.topic }}</h2>
 	</div>
 	<div class="panel-body">
+		<ul>
 		{% for trainingitem in site.data.developercommunity.topic-items %}
-			<ul>
-				<li><a href="{{ trainingitem.url }}">{{ trainingitem.title }}</a></li>
-			</ul>
+			<li><a href="{{ trainingitem.url }}">{{ trainingitem.title }}</a></li>
 		{% endfor %}
+		</ul>
 	</div>
 </section>
 	
