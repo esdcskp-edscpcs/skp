@@ -5,10 +5,10 @@ permalink: /securitychampions/
 ---
 
 # Table of Contents
-- [Welcome Security Champion](#welcome-security-champion)
+- [Security Champions Overview](#security-champions-overview)
   * [Background](#background)
   * [The Security Champion Objectives](#the-security-champion-objectives)
-  * [My Roles and Responsibilities as a Security Champion](#my-roles-and-responsibilities-as-a-security-champion)
+  * [Roles and Responsibilities as a Security Champion](#roles-and-responsibilities-as-a-security-champion)
     + [Roles and Responsibilities](#roles-and-responsibilities)
     + [Implementing and managing security tools](#implementing-and-managing-security-tools)
     + [Training](#training)
