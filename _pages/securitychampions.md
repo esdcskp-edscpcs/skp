@@ -185,7 +185,10 @@ You can send a request directly into the MS Teams [Security Champions Network - 
         {% endfor %}
       </p>
     {% endif %}
-    <ul class="list-group list-inline row mrgn-lft-0 mrgn-rght-0">
+    <p>
+		<span><strong>Nominees:</strong></span>
+	</p>
+	<ul class="list-group list-inline row mrgn-lft-0 mrgn-rght-0">
       {% for nominee in product.nominees %}
         <li class="list-group-item col-md-4 brdr-rds-0">
           <h3 class="list-group-item-heading" id="{{ nominee.name | slugify }}"><a href="mailto:{{ nominee.name }}">{{ nominee.name }}</a></h3>
