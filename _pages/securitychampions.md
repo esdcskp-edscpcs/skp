@@ -23,6 +23,9 @@ permalink: /securitychampions/
   * [Reasons to become a Security Champion](#reasons-to-become-a-security-champion)
   * [Details](#details)
   * [How can I become a Security Champion](#how-can-i-become-a-security-champion)
+- [Our Security Champions](#our-security-champions)
+  * [Artificial Intelligence Centre of Excellence (AI CoE)](#artificial-intelligence-centre-of-excellence-ai-coe-)
+  * [Corporate Correspondance Solutions (CCS)](#corporate-correspondance-solutions-ccs-)
   
 # Security Champions Overview
 
@@ -165,3 +168,22 @@ In addition, you will become a participating member of the Security Champion Net
 
 You can send a request directly into the MS Teams [Security Champions Network - Become a Security Champion channel](https://teams.microsoft.com/l/channel/19%3acc911cac1b4b4d1f9f66544125b384ac%40thread.tacv2/Become%2520a%2520Security%2520Champion?groupId=bea80905-7f0f-432d-9a83-60561c1efcd2&tenantId=9ed55846-8a81-4246-acd8-b1a01abfc0d1).
 
+# Our Security Champions
+
+## Artificial Intelligence Centre of Excellence (AI CoE)
+
+**Nominated by:** [Mailloux, Annick [NC]](mailto:Mailloux, Annick [NC])
+
+|**Name**|**Phone Number**|
+| ------ | ------ |
+|[Guimont, Charles CM](mailto:Guimont, Charles CM)|-|
+|[Beauchamp, Francis FB](mailto:Beauchamp, Francis FB)|819-654-0514|
+|[Turner, Ken M [NC]](mailto:Turner, Ken M [NC])|819-654-1301|
+
+## Corporate Correspondance Solutions (CCS)
+
+**Nominated by:** [Squibb, Lemonte L [NC]](mailto:Squibb, Lemonte L [NC]) and [Rivard, Stéphane SG [NC]](mailto:Rivard, Stéphane SG [NC])
+
+|**Name**|**Phone Number**|
+| ------ | ------ |
+|[Nadeau, Jamie J [NC]](mailto:Nadeau, Jamie J [NC])|819-654-0673|
