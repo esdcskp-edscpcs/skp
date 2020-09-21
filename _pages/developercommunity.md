@@ -1,5 +1,6 @@
 ---
 title: Developer Community
+layout: no-banner
 permalink: /developercommunity/
 ---
 
