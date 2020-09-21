@@ -4,6 +4,11 @@ layout: no-banner
 permalink: /securitychampions/
 ---
 
+# Table of content
+
+[[_TOC_]]
+
+
 # Welcome Security Champion
 We are pleased to have you be the Point of Contact between your team and IT Security.  As IT Security cannot be present in all management and team environments, your role is critical to ensure there are no security gaps in your process and/or application. 
 
