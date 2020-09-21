@@ -19,6 +19,9 @@ permalink: /securitychampions/
     + [Business](#business)
     + [The IT Security Teams](#the-it-security-teams)
   * [Security Assessment Approach](#security-assessment-approach)
+- [Become a Security Champion](#become-a-security-champion)
+  * [Reasons to become a Security Champion](#reasons-to-become-a-security-champion)
+  * [Details](#details)
   
 # Welcome Security Champion
 We are pleased to have you be the Point of Contact between your team and IT Security.  As IT Security cannot be present in all management and team environments, your role is critical to ensure there are no security gaps in your process and/or application. 
@@ -135,3 +138,22 @@ Doing so will allow IITB to conform to the Treasury Board Directive on Security 
 * Identify Security Assurance Level, Categorize and Prioritize 
 * Conduct Compliance Assessment against required safeguards/controls
 * High Residual Risk solutions to be triaged for attention and action.
+
+# Become a Security Champion
+
+## Reasons to become a Security Champion
+
+Do you care about Security in your Solution / Team?
+
+Are you open to promoting Application Security in your solution / Team?
+
+Do you have good Application Security Knowledge and/or the motivation to learn the required knowledge?
+
+Do you want to become a participating member of the Security Network Champion?
+
+**If you answered yes to one of the above,** then you are a good candidate to be a Security Champion. 
+
+## Details
+The role of a Security Champion is to be a Point of Contact representing IT Security in your Solution Team/ Application Development Team. 
+Security training and access to Security Subject Matter Experts and Knowledge Base will help you grow into the security subject-matter expert in your team.  This will aid you to become the security influencer in your team where you will be active in reminding your team members that security is their responsibility. You will also be playing a key role in promoting the department’s security agenda. 
+In addition, you will become a participating member of the Security Champion Network and will have the opportunity to share information and learn from other Security Champions.
