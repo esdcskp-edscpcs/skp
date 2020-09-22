@@ -18,5 +18,5 @@ This will align the department with with the guidance in ITSG-33 and in conforma
 
 IITB is integrating Security by Design within ESDC’s SDLC process. 
 
-[[Read more...]](/security-by-design/)
+[[Read more...]](security-by-design/)
 
