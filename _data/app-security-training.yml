@@ -1,9 +1,10 @@
 training:
   - title: "Canadian Centre for Cyber Security: 910- IT Security Risk Management Bootcamp"
     details: |
-      very "long" 'string' with
-      
-      paragraph gap.
-      
-      * Bullet 1
-      * Bullet 2
+      <p>
+      Testing paragraph:
+      <ul>
+      <li>Bullet 1</li>
+      <li>Bullet 2</li>
+      </ul>
+      </p>
