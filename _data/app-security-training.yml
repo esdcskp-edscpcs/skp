@@ -1,10 +1,12 @@
 training:
-  - title: "Canadian Centre for Cyber Security: 910- IT Security Risk Management Bootcamp"
+  - title: "Learning Tree: DevSecOps Foundation (DSOF)"
     details: |
-      [![Learning-Tree](../assets/Learning-Tree.PNG)]
-      * [Course Details and Schedule](https://www.learningtree.ca/courses/3687/devsecops-engineering-dsoe/)
-      * Level: Intermediate
-      * 2 days course
-      * In Class/Live/Online
-      * Laptop required
-      * $1710.00 CDN
+      <img src="../assets/Learning-Tree.PNG>
+      <ul>
+        <li><a href="https://www.learningtree.ca/courses/3687/devsecops-engineering-dsof/">Course Details and Schedule</a></li>
+        <li>Level: Intermediate</li>
+        <li>2 days course</li>
+        <li>In Class/Live/Online</li>
+        <li>Laptop required</li>
+        <li>$1710.00 CDN</li>
+      </ul>
