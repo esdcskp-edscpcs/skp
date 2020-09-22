@@ -3,7 +3,7 @@ training:
     details: |
       <img src="../assets/Learning-Tree.PNG">
       <ul>
-        <li><a href="https://www.learningtree.ca/courses/3687/devsecops-engineering-dsof/">Course Details and Schedule</a></li>
+        <li><a href="https://www.learningtree.ca/courses/3687/devsecops-engineering-dsof/" target="_blank">Course Details and Schedule</a></li>
         <li>Level: Intermediate</li>
         <li>2 days course</li>
         <li>In Class/Live/Online</li>
