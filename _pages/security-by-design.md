@@ -51,7 +51,7 @@ In addition, ITS Engineering (ITSE) team will work to integrate with the DevOps 
 The Open Web Application Security Project (OWASP) Security Design Principles listed below have been created to help developers build highly secure web applications.
 
 # Security by Design according to OWASP
-![Open Web Application Security Project (OWASP)](../assets/security-by-design/OWASP-180x100.png)
+![Open Web Application Security Project (OWASP)](../assets/OWASP-180x100.png)
 
 Architects and solution providers need guidance to produce secure
 applications by design, and they can do this by not only implementing
