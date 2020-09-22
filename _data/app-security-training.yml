@@ -1,42 +1,45 @@
 training:
   - title: "Canadian Centre for Cyber Security: 910- IT Security Risk Management Bootcamp"
     details: |
-        ## **Canadian Centre for Cyber Security** - 910- IT Security Risk Management Bootcamp
-        ![Cyber-Centre-Learning-Hub](../assets/Cyber-Centre-Learning-Hub.PNG)
+      very "long"
+      'string' with
 
-        * [Course Details and Schedules](https://lih-cai.cse-cst.gc.ca/enrol/index.php?id=124)
-        * Level: Beginner
-        * 5 days course
-        * In Class/On Site
-        * 2000.00$ (Group price available)
-        * Recommended prerequisite course (Free - Online - Self-paced): [601 - Introduction to IT Security Management](https://lih-cai.cse-cst.gc.ca/enrol/index.php?id=153)
+      paragraph gap, \n and        
+      spaces.
+        # ![Cyber-Centre-Learning-Hub](../assets/Cyber-Centre-Learning-Hub.PNG)
+        # * [Course Details and Schedules](https://lih-cai.cse-cst.gc.ca/enrol/index.php?id=124)
+        # * Level: Beginner
+        # * 5 days course
+        # * In Class/On Site
+        # * 2000.00$ (Group price available)
+        # * Recommended prerequisite course (Free - Online - Self-paced): [601 - Introduction to IT Security Management](https://lih-cai.cse-cst.gc.ca/enrol/index.php?id=153)
 
-        All Government of Canada (GC) departments transmitting, storing or processing sensitive government information must be protected by systems that have been developed, acquired and evaluated according to recognized standards and implemented in accordance with GC policies and practices.
+        # All Government of Canada (GC) departments transmitting, storing or processing sensitive government information must be protected by systems that have been developed, acquired and evaluated according to recognized standards and implemented in accordance with GC policies and practices.
 
-        This boot camp will provide participants with the overall concepts of IT security risk management for the GC and the foundational knowledge and guidelines needed to contribute to the development of security control profiles. It will also highlight the integration of IT security risk management within the System Development Lifecycle (SDLC) as described in ITSG-33.
+        # This boot camp will provide participants with the overall concepts of IT security risk management for the GC and the foundational knowledge and guidelines needed to contribute to the development of security control profiles. It will also highlight the integration of IT security risk management within the System Development Lifecycle (SDLC) as described in ITSG-33.
 
-        This boot camp consists of the following foundational courses:
+        # This boot camp consists of the following foundational courses:
 
-        * 104 – IT Security Risk Management: A Lifecycle Approach (ITSG-33)
-        * 105 – Information System Security Implementation Process (ISSIP)
-        * 701 – IT Security Risk Management and Security Control Profiles
+        # * 104 – IT Security Risk Management: A Lifecycle Approach (ITSG-33)
+        # * 105 – Information System Security Implementation Process (ISSIP)
+        # * 701 – IT Security Risk Management and Security Control Profiles
 
-        Objectives:
+        # Objectives:
 
-        This course will provide you with a high-level appreciation of the key concepts and processes of cross domain solutions. It will help you plan and understand the business requirements for cross domains solutions when the need arises for information sharing between security domains.
+        # This course will provide you with a high-level appreciation of the key concepts and processes of cross domain solutions. It will help you plan and understand the business requirements for cross domains solutions when the need arises for information sharing between security domains.
 
-        * Apply IT security risk management within the GC context
-        * Identify the initial steps to integrating risk management guidance within your department
-        * Describe the ISSIP and why it is required
-        * Situate the ISSIP within the ITSG-33 security risk management process
-        * Describe all the ISSIP activities
-        * Complete key ISSIP activities
-        * Interpret departmental threat & risk assessments
-        * Identify business domains
-        * Define IT security approaches
-        * Identify relevant common criteria
-        * Develop departmental security control profiles
+        # * Apply IT security risk management within the GC context
+        # * Identify the initial steps to integrating risk management guidance within your department
+        # * Describe the ISSIP and why it is required
+        # * Situate the ISSIP within the ITSG-33 security risk management process
+        # * Describe all the ISSIP activities
+        # * Complete key ISSIP activities
+        # * Interpret departmental threat & risk assessments
+        # * Identify business domains
+        # * Define IT security approaches
+        # * Identify relevant common criteria
+        # * Develop departmental security control profiles
 
-        Additional material:
+        # Additional material:
 
-        * [IT Security Risk Management: A Lifecycle Approach (ITSG-33)](https://www.cyber.gc.ca/en/guidance/it-security-risk-management-lifecycle-approach-itsg-33)
+        # * [IT Security Risk Management: A Lifecycle Approach (ITSG-33)](https://www.cyber.gc.ca/en/guidance/it-security-risk-management-lifecycle-approach-itsg-33)
