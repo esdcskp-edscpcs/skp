@@ -18,8 +18,6 @@ permalink: /app-security-training/
   </li>
 {% endfor %}
 </ul>
-<p>
 {% for course in site.data.app-security-training.training %}
 	{{ course.details }}
 {% endfor %}
-</p>
