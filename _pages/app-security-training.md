@@ -149,21 +149,22 @@ permalink: /app-security-training/
 		</ul>
 	</p>
 	<p>
-		All Government of Canada (GC) departments transmitting, storing or processing sensitive government information must be protected by systems that have been developed, acquired and evaluated according to recognized standards and implemented in accordance with GC policies and practices.
+		All Government of Canada (GC) departments transmitting, storing or processing sensitive government information must be protected by systems that have been developed, acquired and evaluated according to recognized standards and implemented in accordance with GC policies and practices.<br />
 		
-		This boot camp will provide participants with the overall concepts of IT security risk management for the GC and the foundational knowledge and guidelines needed to contribute to the development of security control profiles. It will also highlight the integration of IT security risk management within the System Development Lifecycle (SDLC) as described in ITSG-33.
+		This boot camp will provide participants with the overall concepts of IT security risk management for the GC and the foundational knowledge and guidelines needed to contribute to the development of security control profiles. It will also highlight the integration of IT security risk management within the System Development Lifecycle (SDLC) as described in ITSG-33.<br />
 		
-		This boot camp consists of the following foundational courses:
+		This boot camp consists of the following foundational courses:<br />
 		
 		<ul>
 			<li>104 – IT Security Risk Management: A Lifecycle Approach (ITSG-33)</li>
 			<li>105 – Information System Security Implementation Process (ISSIP)</li>
 			<li>701 – IT Security Risk Management and Security Control Profiles</li>
 		</ul>
-
-		<strong>Objectives:</strong>
+	</p>
+	<p>
+		<strong>Objectives:</strong><br />
 		
-		This course will provide you with a high-level appreciation of the key concepts and processes of cross domain solutions. It will help you plan and understand the business requirements for cross domains solutions when the need arises for information sharing between security domains.
+		This course will provide you with a high-level appreciation of the key concepts and processes of cross domain solutions. It will help you plan and understand the business requirements for cross domains solutions when the need arises for information sharing between security domains.<br />
 		
 		<ul>
 			<li>Apply IT security risk management within the GC context</li>
@@ -178,8 +179,9 @@ permalink: /app-security-training/
 			<li>Identify relevant common criteria</li>
 			<li>Develop departmental security control profiles</li>
 		</ul>
-
-		<strong>Additional material:</strong>
+	</p>
+	<p>
+		<strong>Additional material:</strong><br />
 
 		<ul>
 			<li>[IT Security Risk Management: A Lifecycle Approach (ITSG-33)](https://www.cyber.gc.ca/en/guidance/it-security-risk-management-lifecycle-approach-itsg-33)</li>
