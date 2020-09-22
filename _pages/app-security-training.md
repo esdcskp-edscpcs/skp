@@ -8,20 +8,20 @@ permalink: /app-security-training/
   <li>
   <details>
     <summary>
-      <h2 class="h3" id="devsecops-engineering-dsoe">Learning Tree: DevSecOps Engineering (DSOE)</h2>
+      <h2 class="h3" id="devsecops-engineering-dsoe">Learning Tree: DevSecOps Foundation (DSOF)</h2>
     </summary>
       <p>
 		<img src="/esdc-skp/assets/Learning-Tree.PNG" alt="Learning Tree">
       </p>
     <p>
 		<ul>
-			<li><a href="https://www.learningtree.ca/courses/3687/devsecops-engineering-dsoe/">Course Details and Schedules</a></li>
+			<li><a href="https://www.learningtree.ca/courses/3687/devsecops-foundation-dsof/">Course Details and Schedules</a></li>
 			<li>Level: Intermediate</li>
 			<li>2 days course</li>
 			<li>In Class/Live/Online</li>
 			<li>Laptop required</li>
 			<li>$1710.00 CDN</li>
-			<li>Target audience: Developer and Security Champions</li>
+			<li>Target audience: Developers and Security Champions</li>
 		</ul>
 	</p>
 	<p>
