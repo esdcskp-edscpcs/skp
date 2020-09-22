@@ -1,8 +1,9 @@
 training:
   - title: "Canadian Centre for Cyber Security: 910- IT Security Risk Management Bootcamp"
     details: |
-      very "long"
-      'string' with
-
-      paragraph gap, \n and        
-      spaces.
+      very "long" 'string' with
+      
+      paragraph gap.
+      
+      * Bullet 1
+      * Bullet 2
