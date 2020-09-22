@@ -17,5 +17,15 @@ training:
         <li>4 days course</li>
         <li>In Class/Live/Online/At our site</li>
         <li>Laptop required</li>
-        <li>$2890.00 CDN</li>
-      </ul>    
+        <li>$2890.00</li>
+      </ul>
+  - title: "Canadian Centre for Cyber Security: 335 - Cyber Security in the GC for Software Development Teams"
+    details: |
+      <img src="../assets/Cyber-Centre-Learning-Hub.PNG">
+      <ul>
+        <li><a href="https://lih-cai.cse-cst.gc.ca/enrol/index.php?id=80" target="_blank">Course Details and Schedule</a></li>
+        <li>Level: Beginner</li>
+        <li>1 day course</li>
+        <li>In Class/At our site</li>
+        <li>$500.00 (Group price available)</li>
+      </ul>          
