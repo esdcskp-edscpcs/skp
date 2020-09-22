@@ -28,4 +28,43 @@ training:
         <li>1 day course</li>
         <li>In Class/At our site</li>
         <li>$500.00 (Group price available)</li>
-      </ul>          
+      </ul>
+  - title: "Canadian Centre for Cyber Security: 910- IT Security Risk Management Bootcamp"
+    details: |
+      <img src="../assets/Cyber-Centre-Learning-Hub.PNG">
+      <ul>
+        <li><a href="https://lih-cai.cse-cst.gc.ca/enrol/index.php?id=124" target="_blank">Course Details and Schedule</a></li>
+        <li>Level: Beginner</li>
+        <li>5 days course</li>
+        <li>In Class/At our site</li>
+        <li>$2000.00 (Group price available)</li>
+      </ul>      
+  - title: "Learning Tree: Certified Secure Software Lifecycle Professional (CSSLP) Training"
+    details: |
+      <img src="../assets/Learning-Tree.PNG">
+      <ul>
+        <li><a href="https://www.learningtree.ca/courses/2059/csslp-certification-csslp-training/" target="_blank">Course Details and Schedule</a></li>
+        <li>Level: Advanced</li>
+        <li>5 days course</li>
+        <li>In Class/Live/Online/At our site</li>
+        <li>$4790.00 (Group price available)</li>
+      </ul>     
+  - title: "SANS: SEC540 - Cloud Security and DevOps Automation"
+    details: |
+      <img src="../assets/SANS.PNG">
+      <ul>
+        <li><a href="https://www.sans.org/course/secure-devops-cloud-application-security" target="_blank">Course Details and Schedule</a></li>
+        <li>Level: Intermediate</li>
+        <li>5 days course</li>
+        <li>Live/Online</li>
+        <li>$6600.00 USD</li>
+      </ul> 
+  - title: "Ultimate IT Courses: Certified Secure Web Applications Engineer - Ultimate C)SWAE Self Study Package"
+    details: |
+      <img src="../assets/Ultimate-IT-Courses.png">
+      <ul>
+        <li><a href="https://ultimateitcourses.ca/course/technical/cybersecurity/ultimate-cswae-self-study-package/" target="_blank">Course Details and Schedule</a></li>
+        <li>Level: Intermediate</li>
+        <li>Self Study Package</li>
+        <li>$1200.00</li>
+      </ul>        
