@@ -4,37 +4,59 @@ layout: no-banner
 permalink: /app-security-training/
 ---
 
-<ul class="list-unstyled">
-{% for product in site.data.security-champions.products %}
-  <li>
-  <details>
-    <summary>
-      <h2 class="h3" id="{{ name | slugify }}">{{ product.name }}</h2>
-    </summary>
-    {% if product.nominatedby %}
-      <p>
-		<span><strong>Nominated by:</strong></span> 
-        {% for nominator in product.nominatedby %}
-          <span class="label label-primary"><a href="mailto:{{ nominator.name }}">{{nominator.name}}</a></span>
-        {% endfor %}
-      </p>
-    {% endif %}
-    <p>
-		<span><strong>Nominees:</strong></span>
+<div>
+	<p>
+		The Developer Community section provides you with important information about security and can give you guidance and help to implement security by design, during the development of your product.
 	</p>
-	<ul class="list-group list-inline row mrgn-lft-0 mrgn-rght-0">
-      {% for nominee in product.nominees %}
-        <li class="list-group-item col-md-4 brdr-rds-0">
-          <h3 class="list-group-item-heading" id="{{ nominee.name | slugify }}"><a href="mailto:{{ nominee.name }}">{{ nominee.name }}</a></h3>
-          <ul class="list-group-item-text list-inline">
-            {% if nominee.phone %}
-              <li>{{nominee.phone}}</li>
-            {% endif %}
-          </ul>
-        </li>
-      {% endfor %}
-    </ul>
-  </details>
-  </li>
+</div>
+
+{% for item in site.data.developercommunity.training %}
+<section class="panel panel-default">
+	<div class="panel-heading">
+		<h2 class="panel-title" id="{{ item.topic | slugify }}">{{ item.topic }}</h2>
+	</div>
+	{% if item.topicitems %}
+		<div class="panel-body">
+			<ul>
+		{% for topicitem in item.topicitems %}
+				<li><a href="{{ topicitem.url }}">{{ topicitem.title }}</a></li>
+		{% endfor %}
+			</ul>
+		</div>
+	{% endif %}
+</section>
 {% endfor %}
-</ul>
+
+{% for item in site.data.developercommunity.tools %}
+<section class="panel panel-default">
+	<div class="panel-heading">
+		<h2 class="panel-title" id="{{ item.topic | slugify }}">{{ item.topic }}</h2>
+	</div>
+	{% if item.topicitems %}
+		<div class="panel-body">
+			<ul>
+		{% for topicitem in item.topicitems %}
+				<li><a href="{{ topicitem.url }}">{{ topicitem.title }}</a></li>
+		{% endfor %}
+			</ul>
+		</div>
+	{% endif %}
+</section>
+{% endfor %}
+
+{% for item in site.data.developercommunity.references %}
+<section class="panel panel-default">
+	<div class="panel-heading">
+		<h2 class="panel-title" id="{{ item.topic | slugify }}">{{ item.topic }}</h2>
+	</div>
+	{% if item.topicitems %}
+		<div class="panel-body">
+			<ul>
+		{% for topicitem in item.topicitems %}
+				<li><a href="{{ topicitem.url }}">{{ topicitem.title }}</a></li>
+		{% endfor %}
+			</ul>
+		</div>
+	{% endif %}
+</section>
+{% endfor %}
