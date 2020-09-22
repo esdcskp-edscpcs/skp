@@ -1,7 +1,7 @@
 ---
 title: Security Champions
 layout: no-banner
-permalink: /securitychampions/
+permalink: /security-champions/
 ---
 
 # Table of Contents
