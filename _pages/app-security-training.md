@@ -1,7 +1,7 @@
 ---
 title: Application Security Training
 layout: no-banner
-permalink: /appsecuritytraining/
+permalink: /app-security-training/
 ---
 
 <div>

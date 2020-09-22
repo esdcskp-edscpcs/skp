@@ -1,7 +1,7 @@
 ---
 title: Application Security Tools
 layout: default
-permalink: /appsecuritytools/
+permalink: /app-security-tools/
 ---
 
 <ul class="list-unstyled">
