@@ -1,10 +1,9 @@
 ---
-title: OWASP Top 10 (2017)
+title: OWASP Top 10 (2017) Web Application Security Risks
 layout: default
 permalink: /owasp-top-10/
 ---
 
-# OWASP Top 10 Web Application Security Risks
 ![Open Web Application Security Project](../assets/OWASP-180x100.png) 
 
 [1. Injection](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A1-Injection). 
