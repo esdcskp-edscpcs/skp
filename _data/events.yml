@@ -6,9 +6,9 @@
 #  part2: n/a
 
 past:
-  - date: August 18, 2020
-    topic: AppSec Fast and Slow: Your DevSecOps CI/CD Pipeline Isn’t an SSA Program
+  - date: "August 18, 2020"
+    topic: "AppSec Fast and Slow: Your DevSecOps CI/CD Pipeline Isn't an SSA Program"
     recording: https://www.denimgroup.com/resources/webinar/appsec-fast-and-slow-your-devsecops-ci-cd-pipeline-isnt-an-ssa-program/#form
     resources:
-      - title: Overview of the webinar content
+      - title: "Overview of the webinar content"
         link: https://www.denimgroup.com/resources/webinar/appsec-fast-and-slow-your-devsecops-ci-cd-pipeline-isnt-an-ssa-program/    
