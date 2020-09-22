@@ -11,7 +11,9 @@ permalink: /app-security-training/
     <summary>
       <h2 class="h3" id="{{ course.title | slugify }}">{{ course.title }}</h2>
     </summary>
-	{{ course.details }}
+	<span>
+		{{ course.details }}
+	</span>
   </details>
   </li>
 {% endfor %}
