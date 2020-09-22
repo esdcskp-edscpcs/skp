@@ -191,7 +191,6 @@ permalink: /app-security-training/
       <p>
 		<img src="/esdc-skp/assets/Cyber-Centre-Learning-Hub.PNG" alt="Canadian Centre for Cyber Security">
       </p>
-    <p>
 - [Course Details and Schedules](https://lih-cai.cse-cst.gc.ca/enrol/index.php?id=124)
 - Level: Beginner
 - 5 days course
@@ -228,7 +227,6 @@ This course will provide you with a high-level appreciation of the key concepts 
 Additional material:
 
 * [IT Security Risk Management: A Lifecycle Approach (ITSG-33)](https://www.cyber.gc.ca/en/guidance/it-security-risk-management-lifecycle-approach-itsg-33) 
-	</p>
   </details>
   </li>  
 </ul>
