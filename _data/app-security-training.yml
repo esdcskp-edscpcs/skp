@@ -1,10 +1,10 @@
 training:
   - title: "Canadian Centre for Cyber Security: 910- IT Security Risk Management Bootcamp"
     details: |
-      <p>
-      Testing paragraph:
-      <ul>
-      <li>Bullet 1</li>
-      <li>Bullet 2</li>
-      </ul>
-      </p>
+      [![Learning-Tree](../assets/Learning-Tree.PNG)]
+      * [Course Details and Schedule](https://www.learningtree.ca/courses/3687/devsecops-engineering-dsoe/)
+      * Level: Intermediate
+      * 2 days course
+      * In Class/Live/Online
+      * Laptop required
+      * $1710.00 CDN
