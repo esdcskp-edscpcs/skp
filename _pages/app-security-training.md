@@ -4,59 +4,40 @@ layout: no-banner
 permalink: /app-security-training/
 ---
 
-<div>
-	<p>
-		The Developer Community section provides you with important information about security and can give you guidance and help to implement security by design, during the development of your product.
+<ul class="list-unstyled">
+  <li>
+  <details>
+    <summary>
+      <h2 class="h3" id="devsecops-engineering-dsoe">Learning Tree: DevSecOps Engineering (DSOE)</h2>
+    </summary>
+      <p>
+		<img src="../assets/Learning-Tree.PNG" alt="Learning Tree">
+      </p>
+    <p>
+		- [Course Details and Schedules](https://www.learningtree.ca/courses/3687/devsecops-engineering-dsoe/)
+		- Level: Intermediate
+		- 2 days course
+		- In Class/Live/Online
+		- Laptop required
+		- $1710.00 CDN
+
+		**Key Features of this Training:**
+
+		- Participate in unique activities designed to apply training
+		- Take sample documents, templates, tools and techniques with you post-training to DevOps Institute additional sources of information and communities
+		- Exam is included to test for certification
+
+		**You Will Learn How To:**
+
+		- Explain the purpose, benefits, concepts and vocabulary of DevSecOps
+		- Differentiate DevOps security practices from other security approaches
+		- Focus on Business-driven security strategies
+		- Apply data and security sciences
+		- Benefit from Security Testing with Red and Blue Teams
+		- Integrate security into Continuous Delivery workflows
+		- Integrate DevSecOps roles with a DevOps culture and organization
 	</p>
-</div>
 
-{% for item in site.data.developercommunity.training %}
-<section class="panel panel-default">
-	<div class="panel-heading">
-		<h2 class="panel-title" id="{{ item.topic | slugify }}">{{ item.topic }}</h2>
-	</div>
-	{% if item.topicitems %}
-		<div class="panel-body">
-			<ul>
-		{% for topicitem in item.topicitems %}
-				<li><a href="{{ topicitem.url }}">{{ topicitem.title }}</a></li>
-		{% endfor %}
-			</ul>
-		</div>
-	{% endif %}
-</section>
-{% endfor %}
-
-{% for item in site.data.developercommunity.tools %}
-<section class="panel panel-default">
-	<div class="panel-heading">
-		<h2 class="panel-title" id="{{ item.topic | slugify }}">{{ item.topic }}</h2>
-	</div>
-	{% if item.topicitems %}
-		<div class="panel-body">
-			<ul>
-		{% for topicitem in item.topicitems %}
-				<li><a href="{{ topicitem.url }}">{{ topicitem.title }}</a></li>
-		{% endfor %}
-			</ul>
-		</div>
-	{% endif %}
-</section>
-{% endfor %}
-
-{% for item in site.data.developercommunity.references %}
-<section class="panel panel-default">
-	<div class="panel-heading">
-		<h2 class="panel-title" id="{{ item.topic | slugify }}">{{ item.topic }}</h2>
-	</div>
-	{% if item.topicitems %}
-		<div class="panel-body">
-			<ul>
-		{% for topicitem in item.topicitems %}
-				<li><a href="{{ topicitem.url }}">{{ topicitem.title }}</a></li>
-		{% endfor %}
-			</ul>
-		</div>
-	{% endif %}
-</section>
-{% endfor %}
+  </details>
+  </li>
+</ul>
