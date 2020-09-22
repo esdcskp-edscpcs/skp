@@ -35,16 +35,16 @@ permalink: /events/
             </dl>
         </div>
     {% if event.recording %}
-        <p><strong><a href="{{ event.recording }}"><span class="glyphicon glyphicon-facetime-video"></span> View the recording</a></strong></p>
+        <p><strong><a href="{{ event.recording }}" target="_blank"><span class="glyphicon glyphicon-facetime-video"></span> View the recording</a></strong></p>
     {% endif %}
     {% if event.presentation %}
-        <p><a href="{{ event.presentation }}"><span class="glyphicon glyphicon-file"></span> View the presentation slides</a></p>
+        <p><a href="{{ event.presentation }}" target="_blank"><span class="glyphicon glyphicon-file"></span> View the presentation slides</a></p>
     {% endif %}
     {% if event.resources %}
         <p>Resources:</p>
         <ul>
         {% for resource in event.resources %}
-            <li><a href="{{ resource.link }}">{{ resource.title }}</a></li>
+            <li><a href="{{ resource.link }}" target="_blank">{{ resource.title }}</a></li>
         {% endfor %}
         </ul>
     {% endif %}

@@ -1,25 +1,22 @@
 ---
 layout: default
-title: Welcome to the DevCoP!
+title: Welcome to the ESDC Security Knowledge Portal!
 ---
 
-## Our Goal
+This knowledge portal provides a number of helpful resources for developers and Security Champions in order to help them implement security best practices while they develop their product which result in a product **secure by design**.
 
-Equipping ESDC developers with skills, knowledge and tools to continuously modernize the software they develop.  
-We want the developers at ESDC to be collaborating with each other and those from other departments, gaining skills to build into a greater diversity of knowledge, enabling them to develop stronger and more versatile software.
+## Security by Design?
 
-## How
+Security by Design is an approach to software and hardware development that seeks to make systems as free of vulnerabilities and impervious to attack as possible. It is the process that integrates security in the system development lifecycle process (SDLC).
 
-### DevCoP Presentations
+Currently when solutions are developed, security assurance is performed at the end of the project resulting in ineffective mitigation.
+Given today’s dynamic threat environment IT Security can no longer be an afterthought.
 
-DevCoP presentations are currently our main point of contact with the Development Community where we bring updates on the [available tooling]({{ '/' | absolute_url }}tools.html) and direction of development for the department. The main focus of the DevCoP presentations is a form of training where we will highlight existing [best practices]({{ '/' | absolute_url }}guides/) used by other teams, and demonstrate examples of using [tooling]({{ '/' | absolute_url }}tools.html).
-We have a DevCoP presentation every month (excluding July and August). You can view the [presentations]({{ '/' | absolute_url }}events/) that are planned for the year.  
+The goal is to foster a culture of Security by Design whereby IT Security is introduced at the beginning of the project/solution regardless whether the solution is cloud based or not.
 
-## Get Involved
+This will align the department with with the guidance in ITSG-33 and in conformance with the updated Treasury Board Directive on Security Management and the Policy on Government Security, which took effect on July 1, 2019.
 
-Feel free to create a [GitHub issue](https://github.com/esdc-devcop/esdc-devcop.github.io/issues/new/choose) if you want to:
+IITB is integrating Security by Design within ESDC’s SDLC process. 
 
-- Collaborate and add content to our pages.
-- Ask a question about one of our DevCoP presentations. Starting in 2020, a Milestone will be created for each monthly DevCoP presentation. When asking a question, please select the appropriate Milestone to indicate which DevCoP presentation requires an answer.
+[[Read more...]](/security-by-design/)
 
-For more info, see [CONTRIBUTING.md](https://github.com/esdc-devcop/esdc-devcop.github.io/blob/master/CONTRIBUTING.md)
