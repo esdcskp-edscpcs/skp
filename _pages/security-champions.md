@@ -169,7 +169,7 @@ You can send a request directly into the MS Teams [Security Champions Network - 
 # Our Security Champions
 
 <ul class="list-unstyled">
-{% for product in site.data.appsecuritytools.products %}
+{% for product in site.data.security-champions.products %}
   <li>
   <details>
     <summary>
