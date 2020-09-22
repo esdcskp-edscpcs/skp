@@ -2,13 +2,13 @@ resources:
   - topic: "Helpful Resources"
     topicitems:
       - title: "Security by Design"
-        url: "esdc-skp/security-by-design/"
+        url: "security-by-design/"
       - title: "Threat Modeling"
-        url: "esdc-skp/threat-modeling/"
+        url: "threat-modeling/"
       - title: "Security Controls"
-        url: "esdc-skp/security-controls/"
+        url: "security-controls/"
       - title: "OWASP Top 10 (2017)"
-        url: "esdc-skp/owasp-top10-2017"
+        url: "owasp-top10-2017"
       - title: "OWASP Cheat Sheet Series Project"
         url: https://cheatsheetseries.owasp.org/
       - title: "Microsoft Security Engineering: Secure DevOps Best Practices"
