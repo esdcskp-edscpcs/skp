@@ -26,8 +26,8 @@ permalink: /events/
     <div class="panel-body">
         <div class="pull-right mrgn-rght-lg text-muted small">
             <dl>
-                <dt>Presented in:</dt>
-                <dd>{{ event.month }}</dd>
+                <dt>Presented on:</dt>
+                <dd>{{ event.date }}</dd>
     {% if event.id %}
                 <dt>GitHub Issue:</dt>
                 <dd><a href="https://github.com/esdc-devcop/esdc-devcop.github.io/issues/{{ event.id }}">#{{ event.id }}</a></dd>
@@ -35,7 +35,7 @@ permalink: /events/
             </dl>
         </div>
     {% if event.recording %}
-        <p><strong><a href="{{ event.recording }}"><span class="glyphicon glyphicon-facetime-video"></span> View the video recording</a></strong></p>
+        <p><strong><a href="{{ event.recording }}"><span class="glyphicon glyphicon-facetime-video"></span> View the recording</a></strong></p>
     {% endif %}
     {% if event.presentation %}
         <p><a href="{{ event.presentation }}"><span class="glyphicon glyphicon-file"></span> View the presentation slides</a></p>
@@ -52,14 +52,3 @@ permalink: /events/
 </section>
 
 {% endfor %}
-
-{% if site.data.events.dates %}
-
-## Potential Future Dates
-
-<ul>
-{% for date in site.data.events.dates %}
-    <li>{{ date }}</li>
-{% endfor %}
-</ul>
-{% endif %}

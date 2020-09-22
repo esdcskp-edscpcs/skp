@@ -1,7 +1,3 @@
-dates:
-  - September 22, 2020 at 10h00 AM EST.
-  - September 29, 2020 at 10h00 AM EST.
-
 #  next:
 #  topic: .NET & Java Web Templates Demo - Using CDTS
 #  id: 84
@@ -10,95 +6,9 @@ dates:
 #  part2: n/a
 
 past:
-  - month: September 2020
-    topic: Azure Dev Ops using the Agile Approach (Part 1)
-    recording: https://gts-ee.webex.com/recordingservice/sites/gts-ee/recording/playback/1a102b67db654fd382e0632cc8eab1f3
-    presentation: https://github.com/esdc-devcop/presentations/blob/master/DevCop%20-%20ADO.pptx
-    
-  - month: March 2020
-    topic: .NET & Java Web Templates Demo - Using CDTS
-    id: 84
-    recording: https://gts-ee.webex.com/webappng/sites/gts-ee/recording/df64b5668c7747b783c6ee013186d79d
-    presentation: https://esdc-devcop.github.io/templates-presentation/#/
+  - date: August 18, 2020
+    topic: AppSec Fast and Slow: Your DevSecOps CI/CD Pipeline Isn’t an SSA Program
+    recording: https://www.denimgroup.com/resources/webinar/appsec-fast-and-slow-your-devsecops-ci-cd-pipeline-isnt-an-ssa-program/#form
     resources:
-      - title: Centrally Deployed Templates Solution (CDTS) presentation
-        link: https://cenw-wscoe.github.io/sgdc-cdts-dev-cop/#/
-      - title: CDTS project on GitHub
-        link: https://github.com/wet-boew/cdts-sgdc
-      - title: CDTS Documentation
-        link: https://cenw-wscoe.github.io/sgdc-cdts/index.html
-      - title: DotNet Templates project on GCcode
-        link: https://gccode.ssc-spc.gc.ca/iitb-dgiit/sds/GOCWebTemplates/DotNetTemplates
-      - title: DotNet Templates Demo on GitHub
-        link: https://github.com/esdc-devcop/templates-netcore-example
-      - title: Java Templates project on GCcode
-        link: https://gccode.ssc-spc.gc.ca/iitb-dgiit/sds/GOCWebTemplates/JavaTemplates
-      - title: Java Templates Installation Instructions on GCcode
-        link: https://gccode.ssc-spc.gc.ca/iitb-dgiit/sds/GOCWebTemplates/JavaTemplates/-/wikis/Documentation/Installation
-    
-  - month: February 2020
-    topic: Azure DevOps Server features overview - Part 2
-    id: 87
-    recording: https://gts-ee.webex.com/webappng/sites/gts-ee/recording/92cb463966ad4d30a0bde07f1977a002
-    
-  - month: February 2020
-    topic: Azure DevOps Server features overview - Part 1
-    id: 87
-    recording: https://gts-ee.webex.com/webappng/sites/gts-ee/recording/5785938168a44c509bc5dc4e74f116b7
-    resources:
-      - title: Azure DevOps User Guide
-        link: https://docs.microsoft.com/en-us/azure/devops/user-guide/
-      - title: Permissions/Security Overview
-        link: https://docs.microsoft.com/en-us/azure/devops/organizations/security/permissions?view=azure-devops&amp;tabs=preview-page
-      - title: Area and iteration paths
-        link: https://docs.microsoft.com/en-us/azure/devops/organizations/settings/about-areas-iterations?view=azure-devops
-      - title: Teams and Area Paths
-        link: https://docs.microsoft.com/en-us/azure/devops/organizations/settings/set-area-paths?view=azure-devops&amp%3Btabs=preview-page&tabs=preview-page
-
-  - month: January 2020
-    topic: Creating & Using APIs from the store (using REST) - Part 2
-    id: 34
-    presentation: https://github.com/esdc-devcop/presentations/blob/master/REST%20Deep%20Dive.pptx
-    recording: https://gts-ee.webex.com/gts-ee/ldr.php?RCID=de51c38e434b96c0504c76e9669c8510
-
-  - month: January 2020
-    topic: Creating & Using APIs from the store (using REST) - Part 1
-    id: 34
-    presentation: https://github.com/esdc-devcop/presentations/blob/master/Managing%20APIs%20and%20Microservices.pptx
-    recording: https://gts-ee.webex.com/gts-ee/ldr.php?RCID=5d5c2e2cddb3f97316bbfa6618b4d270
-  
-  - month: December 2019
-    topic: Managing Merge Requests - Using Code Review
-    id: 3
-    presentation: https://esdc-devcop.github.io/presentations/mergerequest.html
-    recording: https://gts-ee.webex.com/webappng/sites/gts-ee/recording/4e2e2458091c496a9ae3a98eb2ed75d1
-    resources:
-      - title: Managing Merge Requests, Using Code Review
-        link: https://esdc-devcop.github.io/recommendations/source_management/merging-review.html
-      - title: Continuous Integration / Continuous Delivery
-        link: https://esdc-devcop.github.io/guides/pipelines/cicd.html
-
-  - month: November 2019
-    topic: Recommend a branching model
-    id: 10
-    presentation: https://esdc-devcop.github.io/presentations/gitflow.html
-    recording: https://gts-ee.webex.com/recordingservice/sites/gts-ee/recording/9e28a4c3b4b1468385742163879d9122
-    resources:
-      - title: Git Branching, Picking a Git Flow
-        link: https://esdc-devcop.github.io/recommendations/source_management/git-branching.md
-
-  - month: October 2019
-    topic: Application Development Outcomes Map
-    presentation: http://dialogue/grp/PR6893344/OneNote/AppDevSA/03-Reference%20Material/Presentations/DevCop.one#SA%20and%20Outcomes%20Map%20-%20Oct%2015%202019&section-id={5EC98638-1A31-4AFE-941E-9AD50872138F}&page-id={66461AC0-9116-4364-B799-BD16D6C2CB70}&end
-    recording: https://gts-ee.webex.com/webappng/sites/gts-ee/recording/aef400b220a94e82a08b1cf3346ad40b
-    resources:
-      - title: Outcomes Map
-        link: http://dialogue/grp/PR6893344/OneNote/AppDevSA/02-Development%20(In%20Progress)/AppDev%20Roadmap.one#Outcomes%20and%20Dependencies%20Overview&section-id={5E16E60C-310B-49EF-8451-88E0CE4DA968}&page-id={67E8C1D8-F39B-498E-A809-EEAAB9BDAC88}&object-id={00AD0F45-6E68-0BA5-1DE4-4D2E8D11601E}&A9
-          
-  - month: September 2019
-    topic: Move source control to Git
-    id: 1
-    presentation: https://esdc-devcop.github.io/presentations/migrate-to-git.html
-    resources:
-      - title: Migrate from TFVC to Git
-        link: https://esdc-devcop.github.io/guides/source-control/tfvc-to-git.html
+      - title: Overview of the webinar content
+        link: https://www.denimgroup.com/resources/webinar/appsec-fast-and-slow-your-devsecops-ci-cd-pipeline-isnt-an-ssa-program/    
