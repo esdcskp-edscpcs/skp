@@ -92,5 +92,41 @@ permalink: /app-security-training/
 		</ul>
 	</p>
   </details>
-  </li>  
+  </li>
+  <li>
+  <details>
+    <summary>
+      <h2 class="h3" id="devsecops-engineering-dsoe">Canadian Centre for Cyber Security: 335 - Cyber Security in the GC for Software Development Teams</h2>
+    </summary>
+      <p>
+		<img src="/esdc-skp/assets/Cyber-Centre-Learning-Hub.PNG" alt="Canadian Centre for Cyber Security">
+      </p>
+    <p>
+		<ul>
+			<li><a href="https://lih-cai.cse-cst.gc.ca/enrol/index.php?id=80">Course Details and Schedules</a></li>
+			<li>Level: Beginner</li>
+			<li>1 day course</li>
+			<li>In Class/On Site</li>
+			<li>500.00$ (Group price available)</li>
+			<li>Target audience: Developers and Security Champions</li>
+		</ul>
+	</p>
+	<p>
+		This non-technical course will introduce you to an Overview of IT Security Risk Management: A Lifecycle Approach (ITSG-33) as it relates to software development. Participants will learn about the relevant classes and families of the security control catalogue to counter common vulnerabilities and weaknesses in software.
+	</p>
+	<p>
+		<strong>Objectives:</strong>
+	</p>	
+	<p>
+		<ul>
+			<li>Apply the ITSG-33 approach to your SDLC and environment.</li>
+			<li>Identify common vulnerabilities and how to fix them.</li>
+			<li>Understand the impact of technical vulnerabilities introduced in development.</li>
+			<li>Know techniques for conducting effective security code reviews.</li>
+			<li>Apply security controls from ITSG-33 throughout the SDLC.</li>
+			<li>Be more familiar with considerations for deploying and maintaining secure applications.</li>
+		</ul>
+	</p>
+  </details>
+  </li>   
 </ul>
