@@ -74,3 +74,61 @@ supported:
         product: Binary Static Analysis
         pricing: "Paid Solution"
         details: "../vc-binary-static-analysis"
+  - focus: "Dynamic Application Security Testing (DAST)"
+    tools:
+      - name: Arachni
+        product: <br />
+        pricing: "Open Source"
+        details: "../arachni"
+      - name: W3AF
+        product: <br />
+        pricing: "Open Source"
+        details: "../w3af"
+      - name: SkipFish
+        product: <br />
+        pricing: "Open Source"
+        details: "../skipfish"   
+      - name: BurpSuite Pro
+        product: <br />
+        pricing: "Paid Solution"
+        details: "../burpsuite-pro"
+      - name: Whitehat
+        product: Sentinel Dynamic
+        pricing: "Paid Solution"
+        details: "../wh-sentinel-dynamic"
+      - name: Acunetix
+        product: <br />
+        pricing: "Paid Solution"
+        details: "../acunetix"        
+      - name: Netsparker
+        product: <br />
+        pricing: "Paid Solution"
+        details: "../netsparker"               
+      - name: Qualys
+        product: Web Application Scanning
+        pricing: "Paid Solution"
+        details: "../qualys-was"  
+      - name: Rapid7
+        product: <br />
+        pricing: "Paid Solution"
+        details: "../rapid7"      
+      - name: HCL
+        product: AppScan Enterprise
+        pricing: "Paid Solution"
+        details: "../hcl-appscan-enterprise"      
+      - name: HCL
+        product: AppScan Standard
+        pricing: "Paid Solution"
+        details: "../hcl-appscan-standard"      
+      - name: HCL
+        product: AppScan On Cloud
+        pricing: "Paid Solution"
+        details: "../hcl-appscan-on-cloud"      
+      - name: Tenable.io
+        product: <br />
+        pricing: "Paid Solution"
+        details: "../tenable-io"      
+      - name: Veracode
+        product: Dynamic Analysis
+        pricing: "Paid Solution"
+        details: "../vc-dynamic-analysis"
