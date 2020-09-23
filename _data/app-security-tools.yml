@@ -6,8 +6,9 @@ standard:
       <p>IT experts also differentiate between the two using the terms "white box testing" and "black box testing." SAST is white box testing because the source code for the application is available and transparent. That is what testers look at. In contrast, DAST is black box testing because the source code is not part of the equation. Instead, black box testers rely solely on the behavior of the application.</p>
     tools:
       - name: Microfocus Fortify Static Code Analyzer
-        availability: "For On Premise and Cloud"
+        availability: "On Premise/Cloud"
         details: "../fortify-sca"
+        guide: "../guides/mf-fortify-sca-wi-integration-with-jenkins"
   - focus: "Dynamic Application Security Testing (DAST)"
     definition: |
       <p>Dynamic application security testing (DAST) is a process of testing an application or software product in an operating state. This kind of testing is helpful for industry-standard compliance and general security protections for evolving projects.</p>      
@@ -15,25 +16,26 @@ standard:
       <p>Tech companies offer both DAST and SAST services. Typically, these cover different types of ground in comprehensive testing processes — for example, DAST may only cover certain parts of the interface or design. Using DAST and SAST in combination can help catch different types of security problems before a product is released or develops a growing user base.</p>
     tools:
       - name: OWASP ZAP
-        availability: "For On Premise and Cloud"
+        availability: "On Premise/Cloud"
         details: "../owasp-zap"
       - name: Microfocus Fortify Web Inspect
-        availability: "For On Premise"
+        availability: "On Premise"
         details: "../fortify-wi"
+        guide: "../guides/mf-fortify-sca-wi-integration-with-jenkins"        
   - focus: "Software Composition Analysis (SCA)"
     definition: |
       <p>Software composition analysis (SCA) is an open source component management tool. It generates a report listing all open source components in a given product – including direct and indirect dependencies. Using an SCA, a development team can quickly track and analyze any open source component brought into a project.</p>      
       <p>A SCA solution allows for the secure risk management of open source use throughout the software supply chain, allowing the security team and developers to create an accurate Bill of Materials (BOM) for all your applications, discover and track all open source, Set and enforce policies, enable proactive and continuous monitoring. and seamlessly integrate open source code scanning into the build environment.</p>      
     tools:
       - name: Sonatype Nexus Lifecycle
-        availability: "For Cloud"
+        availability: "Cloud"
         details: "../sonatype-nexus-lifecycle"
   - focus: "Container Security"
     definition: |     
       <p>Container security tools will help scanning container images, VM images, and functions for known vulnerabilities, embedded secrets, malware, configuration issues, and over-provisioned permissions, integrating directly to the CI pipeline, as well as into registries or function stores. Additionally, they can detect and prevent images with hidden malware that evade static scanning from being deployed in production environments, and "shifts left" incident response.</p>      
     tools:
       - name: Aqua Security
-        availability: "For Cloud"
+        availability: "Cloud"
         details: "../aqua-security"
   - focus: "Interactive Application Security Testing"
     definition: |     
