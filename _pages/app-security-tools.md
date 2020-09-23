@@ -42,3 +42,33 @@ NOTE: Developers can use any other supported security tools to fit their needs, 
   </li>
 {% endfor %}
 </ul>
+## Additional Supported Security Tools
+
+The following tools are also available for developers to use instead of the standard security tools above. These tools also integrate with the Threadfix AVM corporate solution.
+<ul class="list-unstyled">
+{% for type in site.data.app-security-tools.supported %}
+  <li>
+  <details>
+    <summary>
+      <h2 class="h3" id="{{ type.focus | slugify }}">{{ type.focus }}</h2>
+    </summary>
+    <p><strong>Additional Supported Tool(s):</strong></p>
+    <ul class="list-group list-inline row mrgn-lft-0 mrgn-rght-0">
+      {% for tool in type.tools %}
+        <li class="list-group-item col-md-4 brdr-rds-0">
+          <h3 class="list-group-item-heading" id="{{ tool.name | slugify }}">{{ tool.name }}</h3>
+          <ul class="list-group-item-text list-inline">
+            {% if tool.availability %}
+              <li>{{ tool.availability }}</li>
+            {% endif %}
+            {% if tool.details %}
+              <li><a href="{{ tool.details }}">Details</a></li>
+            {% endif %}
+          </ul>
+        </li>
+      {% endfor %}
+    </ul>
+  </details>
+  </li>
+{% endfor %}
+</ul>
