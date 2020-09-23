@@ -8,7 +8,7 @@ permalink: /security-champions/
   <li>
   <details>
     <summary>
-		<h1 class="h3">Table of Contents</h1>
+		<h2 class="h3">Table of Contents</h2>
 		<p>
 			<ul>
 				<li><a href="#security-champions-overview">Security Champions Overview</a></li>
