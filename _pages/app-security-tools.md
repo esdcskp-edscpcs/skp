@@ -58,8 +58,8 @@ The following tools also integrate with the Threadfix corporate AVM tool and can
         <li class="list-group-item col-md-4 brdr-rds-0">
           <h3 class="list-group-item-heading" id="{{ tool.name | slugify }}">{{ tool.name }}</h3>
           <ul class="list-group-item-text list-inline">
-            {% if tool.availability %}
-              <li>{{ tool.availability }}</li>
+            {% if tool.pricing %}
+              <li>{{ tool.pricing }}</li>
             {% endif %}
             {% if tool.details %}
               <li><a href="{{ tool.details }}">Details</a></li>

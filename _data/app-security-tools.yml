@@ -38,6 +38,6 @@ standard:
 supported:
   - focus: "Static Application Security Testing (SAST)"
     tools:
-      - name: Microfocus Fortify Static Code Analyzer
-        availability: "For On Premise and Cloud"
-        details: "../fortify-sca"
+      - name: WHitehat Security Sentinel Source
+        pricing: "Paid Solution"
+        details: "../whitehat-sentinel-source"
