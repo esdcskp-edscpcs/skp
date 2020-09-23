@@ -39,11 +39,11 @@ supported:
   - focus: "Static Application Security Testing (SAST)"
     tools:
       - name: FindBugs 2
-        product: 
+        product: <br />
         pricing: "Open Source"
         details: "../findbugs2"
       - name: Brakeman
-        product: 
+        product: <br />
         pricing: "Open Source"
         details: "../brakeman"
       - name: Synopsis
