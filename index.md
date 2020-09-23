@@ -3,7 +3,7 @@ layout: default
 title: Welcome to the ESDC Security Knowledge Portal!
 ---
 
-This knowledge portal provides a number of helpful resources for developers and Security Champions in order to help them implement security best practices while they develop their product which result in a product **secure by design**.
+This knowledge portal provides a number of helpful resources for developers and Security Champions in order to help them implement security best practices while they develop their product which would result in a product **secure by design**.
 
 ## Security by Design?
 
