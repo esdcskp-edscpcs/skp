@@ -13,26 +13,31 @@ To request a licence for any of the following security tools, please [contact us
 NOTE: Developers can use any other supported security tools to fit their needs, but IT Security will require that the tool(s) selected integrate with the corporate Threadfix AVM solution. See [Additional supported security tools](#additional-supported-security-tools) for more details.
 
 <ul class="list-unstyled">
+{% for type in site.data.app-security-tools.standard %}
   <li>
   <details>
     <summary>
-      <h2 class="h3" id="standard-sast">Static Application Security Testing (SAST) - Legacy and Cloud</h2>
+      <h2 class="h3" id="{{ type.focus | slugify }}">{{ type.focus }}</h2>
     </summary>
-<!--       <p>
-          <span class="label label-primary">{{ tag }}</span>
-      </p>
-      <p>{{ devTool.description %}}</p> -->
+    {% if type.definition %}
+      <p>{{ type.definition %}}</p>
+    {% endif %}
     <ul class="list-group list-inline row mrgn-lft-0 mrgn-rght-0">
+      {% for tool in devTool.tools %}
         <li class="list-group-item col-md-4 brdr-rds-0">
-          <a href="../fortify-sca/"><h3 class="list-group-item-heading" id="fortify-sca">Fortify SCA</h3></a>
-		  <img src="../assets/Fortify-SCA.PNG" alt="Fortify Source Code Analyser (SCA)" />
-<!--           <ul class="list-group-item-text list-inline">
-              <li><a href="{{ tool.application }}">Application</a></li>
-              <li><a href="{{ tool.documentation }}">Documentation</a></li>
-              <li><a href="{{ tool.recommendation }}">Recommendation</a></li>
-          </ul> -->
+          <h3 class="list-group-item-heading" id="{{ tool.name | slugify }}">{{ tool.name }}</h3>
+          <ul class="list-group-item-text list-inline">
+            {% if tool.availability %}
+              <li>{{ tool.availability }}</li>
+            {% endif %}
+            {% if tool.details %}
+              <li><a href="{{ tool.details }}">Details</a></li>
+            {% endif %}
+          </ul>
         </li>
+      {% endfor %}
     </ul>
   </details>
   </li>
+{% endfor %}
 </ul>
