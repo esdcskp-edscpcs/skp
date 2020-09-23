@@ -40,7 +40,7 @@ NOTE: Developers can use any other supported security tools to fit their needs, 
 		  {% endfor %}
 		</ul>
 	{% else %}
-		<p>ESDC has not procured any tool of this type so far.</p>
+		<p><strong>ESDC has not procured any tool of this type so far.</strong></p>
 	{% endif %}
   </details>
   </li>
