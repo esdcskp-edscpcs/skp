@@ -6,13 +6,13 @@ permalink: /app-security-tools/
 
 ## ESDC Standard Security Tools
 
-IT Security requires development teams to integrate into their CI/CD Pipeline at least the following types of security testing using the recommended tools. The following tools are standard within the departement and integrates with the **Threadfix** corporate Application Vulnerabilities Management (AVM) tool. 
+IT Security requires development teams to integrate into their CI/CD Pipeline at least the following types of security testing using the recommended tools. The following tools are standard within the departement and integrates with the [**Threadfix**](https://threadfix.it/) corporate Application Vulnerabilities Management (AVM) tool in order to consolidate the results of all security tools scanning throughout the department. 
 
 Implementation guides for our standard security tools can be found next to the product as soon as they are available to distribute.
 
 To request a licence for any of the following security tools, please [contact us via the MS Teams Security Champions Network](https://teams.microsoft.com/l/channel/19%3a7fb48ff71f584a309817c64b3d599a77%40thread.tacv2/Licenses?groupId=bea80905-7f0f-432d-9a83-60561c1efcd2&tenantId=9ed55846-8a81-4246-acd8-b1a01abfc0d1).
 
-NOTE: Developers can use any other supported security tools to fit their needs, but IT Security will require that the tool(s) selected integrate with the corporate Threadfix AVM solution. See [Additional supported security tools](#additional-supported-security-tools) for more details.
+NOTE: Developers can use any other supported security tools to fit their needs, but IT Security will require that the tool(s) selected [**integrate**](https://threadfix.it/integration_category/scanners/) with the corporate Threadfix AVM solution. See [Additional recommended security tools](#additional-recommended-security-tools) for more details.
 
 <ul class="list-unstyled">
 {% for type in site.data.app-security-tools.standard %}
