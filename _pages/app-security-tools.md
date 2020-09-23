@@ -20,10 +20,10 @@ NOTE: Developers can use any other supported security tools to fit their needs, 
       <h2 class="h3" id="{{ type.focus | slugify }}">{{ type.focus }}</h2>
     </summary>
     {% if type.definition %}
-      <p>{{ type.definition %}}</p>
+      {{ type.definition %}}
     {% endif %}
     <ul class="list-group list-inline row mrgn-lft-0 mrgn-rght-0">
-      {% for tool in devTool.tools %}
+      {% for tool in type.tools %}
         <li class="list-group-item col-md-4 brdr-rds-0">
           <h3 class="list-group-item-heading" id="{{ tool.name | slugify }}">{{ tool.name }}</h3>
           <ul class="list-group-item-text list-inline">
