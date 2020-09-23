@@ -25,7 +25,7 @@ standard:
   - focus: "Software Composition Analysis (SCA)"
     definition: |
       <p>Software composition analysis (SCA) is an open source component management tool. It generates a report listing all open source components in a given product – including direct and indirect dependencies. Using an SCA, a development team can quickly track and analyze any open source component brought into a project.</p>      
-      <p>A SCA solution allows for the secure risk management of open source use throughout the software supply chain, allowing the security team and developers to create an accurate Bill of Materials (BOM) for all your applications, discover and track all open source, Set and enforce policies, enable proactive and continuous monitoring. and seamlessly integrate open source code scanning into the build environment.</p>      
+      <p>A SCA solution allows for the secure risk management of open source use throughout the software supply chain, allowing the security team and developers to create an accurate Bill of Materials (BOM) for all your applications, discover and track all open source, set and enforce policies, enable proactive and continuous monitoring. and seamlessly integrate open source code scanning into the build environment.</p>      
     tools:
       - name: Sonatype Nexus Lifecycle
         availability: "Cloud"
