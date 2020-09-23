@@ -28,3 +28,16 @@ standard:
       - name: Sonatype Nexus Lifecycle
         availability: "For Cloud"
         details: "../sonatype-nexus-lifecycle"
+  - focus: "Container Security"
+    definition: |     
+      <p>Container security tools will help scanning container images, VM images, and functions for known vulnerabilities, embedded secrets, malware, configuration issues, and over-provisioned permissions, integrating directly to the CI pipeline, as well as into registries or function stores. Additionally, they can detect and prevent images with hidden malware that evade static scanning from being deployed in production environments, and "shifts left" incident response.</p>      
+    tools:
+      - name: Aqua Security
+        availability: "For Cloud"
+        details: "../aqua-security"
+supported:
+  - focus: "Static Application Security Testing (SAST)"
+    tools:
+      - name: Microfocus Fortify Static Code Analyzer
+        availability: "For On Premise and Cloud"
+        details: "../fortify-sca"
