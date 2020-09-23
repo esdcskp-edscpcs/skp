@@ -35,6 +35,9 @@ NOTE: Developers can use any other supported security tools to fit their needs, 
 				{% if tool.details %}
 				  <li><a href="{{ tool.details }}">Details</a></li>
 				{% endif %}
+				{% if tool.guide %}
+				  <li><a href="{{ tool.guide }}">Guide</a></li>
+				{% endif %}
 			  </ul>
 			</li>
 		  {% endfor %}
@@ -56,23 +59,30 @@ The following tools also integrate with the Threadfix corporate AVM tool and can
     <summary>
       <h2 class="h3" id="{{ type.focus | slugify }}">{{ type.focus }}</h2>
     </summary>
-    <p><strong>Additional Recommended Tool(s):</strong></p>
-    <ul class="list-group list-inline row mrgn-lft-0 mrgn-rght-0">
-      {% for tool in type.tools | sort: "name" %}
-        <li class="list-group-item col-md-4 brdr-rds-0">
-		  <h3 class="list-group-item-heading">{{ tool.name }}<br />{{ tool.product }}</h3>
-          <ul class="list-group-item-text list-inline">
+    {% if type.tools %}
+		<p><strong>Additional Recommended Tool(s):</strong></p>
+		<ul class="list-group list-inline row mrgn-lft-0 mrgn-rght-0">
+		  {% for tool in type.tools | sort: "name" %}
+			<li class="list-group-item col-md-4 brdr-rds-0">
+			  <h3 class="list-group-item-heading">{{ tool.name }}<br />{{ tool.product }}</h3>
+			  <ul class="list-group-item-text list-inline">
 
-            {% if tool.pricing %}
-              <li>{{ tool.pricing }}</li>
-            {% endif %}
-            {% if tool.details %}
-              <li><a href="{{ tool.details }}">Details</a></li>
-            {% endif %}
-          </ul>
-        </li>
-      {% endfor %}
-    </ul>
+				{% if tool.pricing %}
+				  <li>{{ tool.pricing }}</li>
+				{% endif %}
+				{% if tool.details %}
+				  <li><a href="{{ tool.details }}">Details</a></li>
+				{% endif %}
+				{% if tool.guide %}
+				  <li><a href="{{ tool.guide }}">Guide</a></li>
+				{% endif %}
+			  </ul>
+			</li>
+		  {% endfor %}
+		</ul>
+	{% else %}
+		<p><strong>ESDC has not procured any tool of this type so far.</strong></p>
+	{% endif %}
   </details>
   </li>
 {% endfor %}
