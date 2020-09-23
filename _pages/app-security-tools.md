@@ -42,9 +42,9 @@ NOTE: Developers can use any other supported security tools to fit their needs, 
   </li>
 {% endfor %}
 </ul>
-## Additional Supported Security Tools
+## Additional Authorized Security Tools
 
-The following tools are also available for developers to use instead of the standard security tools above. These tools also integrate with the Threadfix AVM corporate solution.
+The following tools also integrate with the Threadfix corporate AVM tool and can be used instead of the standard tools listed above however, IT Security will not take ownership of these tools and may not be able to provide support for it.
 <ul class="list-unstyled">
 {% for type in site.data.app-security-tools.supported %}
   <li>
