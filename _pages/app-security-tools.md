@@ -22,6 +22,7 @@ NOTE: Developers can use any other supported security tools to fit their needs, 
     {% if type.definition %}
       {{ type.definition %}}
     {% endif %}
+    <p><strong>Corporate Standard(s):</strong></p>
     <ul class="list-group list-inline row mrgn-lft-0 mrgn-rght-0">
       {% for tool in type.tools %}
         <li class="list-group-item col-md-4 brdr-rds-0">
