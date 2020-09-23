@@ -4,46 +4,35 @@ layout: default
 permalink: /app-security-tools/
 ---
 
+## ESDC STANDARD Security Tools
+
+IT Security requires development teams to integrate into their CI/CD Pipeline at least the following types of security testing using the recommended tools. The following tools are standard within the departement and integrates with the **Threadfix** corporate Application Vulnerabilities Management (AVM) tool.
+
+To request a licence for any of the following security tools, please [contact us via the MS Teams Security Champions Network](https://teams.microsoft.com/l/channel/19%3a7fb48ff71f584a309817c64b3d599a77%40thread.tacv2/Licenses?groupId=bea80905-7f0f-432d-9a83-60561c1efcd2&tenantId=9ed55846-8a81-4246-acd8-b1a01abfc0d1).
+
+NOTE: Developers can use any other supported security tools to fit their needs, but IT Security will require that the tool(s) selected integrate with the corporate Threadfix AVM solution. See [Additional supported security tools](#additional-supported-security-tools) for more details.
+
 <ul class="list-unstyled">
-{% for devTool in site.data.tools.development | sort: "focus" %}
   <li>
   <details>
     <summary>
-      {% assign title = devTool.focus %}
-      {% if devTool.scope %}
-        {% assign title = title | append: ' - ' | append: devTool.scope %}
-      {% endif %}
-      <h2 class="h3" id="{{ title | slugify }}">{{ title }}</h2>
+      <h2 class="h3" id="standard-sast">Static Application Security Testing (SAST) - Legacy and Cloud</h2>
     </summary>
-    {% if devTool.tags %}
-      <p>
-        {% for tag in devTool.tags %}
+<!--       <p>
           <span class="label label-primary">{{ tag }}</span>
-        {% endfor %}
       </p>
-    {% endif %}
-    {% if devTool.description %}
-      <p>{{ devTool.description %}}</p>
-    {% endif %}
+      <p>{{ devTool.description %}}</p> -->
     <ul class="list-group list-inline row mrgn-lft-0 mrgn-rght-0">
-      {% for tool in devTool.tools %}
         <li class="list-group-item col-md-4 brdr-rds-0">
-          <h3 class="list-group-item-heading" id="{{ tool.name | slugify }}">{{ tool.name }}</h3>
-          <ul class="list-group-item-text list-inline">
-            {% if tool.application %}
+          <a href="../fortify-sca/"><h3 class="list-group-item-heading" id="fortify-sca">Fortify SCA</h3></a>
+		  <img src="../assets/Fortify-SCA.PNG" alt="Fortify Source Code Analyser (SCA)" />
+<!--           <ul class="list-group-item-text list-inline">
               <li><a href="{{ tool.application }}">Application</a></li>
-            {% endif %}
-            {% if tool.documentation %}
               <li><a href="{{ tool.documentation }}">Documentation</a></li>
-            {% endif %}
-            {% if tool.recommendation %}
               <li><a href="{{ tool.recommendation }}">Recommendation</a></li>
-            {% endif %}
-          </ul>
+          </ul> -->
         </li>
-      {% endfor %}
     </ul>
   </details>
   </li>
-{% endfor %}
 </ul>
