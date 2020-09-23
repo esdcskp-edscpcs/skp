@@ -22,22 +22,26 @@ NOTE: Developers can use any other supported security tools to fit their needs, 
     {% if type.definition %}
       {{ type.definition %}}
     {% endif %}
-    <p><strong>Corporate Standard(s):</strong></p>
-    <ul class="list-group list-inline row mrgn-lft-0 mrgn-rght-0">
-      {% for tool in type.tools %}
-        <li class="list-group-item col-md-4 brdr-rds-0">
-          <h3 class="list-group-item-heading" id="{{ tool.name | slugify }}">{{ tool.name }}</h3>
-          <ul class="list-group-item-text list-inline">
-            {% if tool.availability %}
-              <li>{{ tool.availability }}</li>
-            {% endif %}
-            {% if tool.details %}
-              <li><a href="{{ tool.details }}">Details</a></li>
-            {% endif %}
-          </ul>
-        </li>
-      {% endfor %}
-    </ul>
+    {% if type.tools %}
+		<p><strong>Corporate Standard(s):</strong></p>
+		<ul class="list-group list-inline row mrgn-lft-0 mrgn-rght-0">
+		  {% for tool in type.tools | sort: "name" %}
+			<li class="list-group-item col-md-4 brdr-rds-0">
+			  <h3 class="list-group-item-heading" id="{{ tool.name | slugify }}">{{ tool.name }}</h3>
+			  <ul class="list-group-item-text list-inline">
+				{% if tool.availability %}
+				  <li>{{ tool.availability }}</li>
+				{% endif %}
+				{% if tool.details %}
+				  <li><a href="{{ tool.details }}">Details</a></li>
+				{% endif %}
+			  </ul>
+			</li>
+		  {% endfor %}
+		</ul>
+	{% else %}
+		<p>ESDC has not procured any tool of this type so far.</p>
+	{% endif %}
   </details>
   </li>
 {% endfor %}
@@ -54,7 +58,7 @@ The following tools also integrate with the Threadfix corporate AVM tool and can
     </summary>
     <p><strong>Additional Recommended Tool(s):</strong></p>
     <ul class="list-group list-inline row mrgn-lft-0 mrgn-rght-0">
-      {% for tool in type.tools %}
+      {% for tool in type.tools | sort: "name" %}
         <li class="list-group-item col-md-4 brdr-rds-0">
 		  <h3 class="list-group-item-heading">{{ tool.name }}<br />{{ tool.product }}</h3>
           <ul class="list-group-item-text list-inline">
