@@ -38,6 +38,18 @@ standard:
 supported:
   - focus: "Static Application Security Testing (SAST)"
     tools:
+      - name: FindBugs 2
+        product: 
+        pricing: "Open Source"
+        details: "../findbugs2"
+      - name: Brakeman
+        product: 
+        pricing: "Open Source"
+        details: "../brakeman"
+      - name: Synopsis
+        product: Coverity
+        pricing: "Open Source"
+        details: "../synopsis-coverity"   
       - name: Whitehat Security
         product: Sentinel Source
         pricing: "Paid Solution"

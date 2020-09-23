@@ -56,8 +56,13 @@ The following tools also integrate with the Threadfix corporate AVM tool and can
     <ul class="list-group list-inline row mrgn-lft-0 mrgn-rght-0">
       {% for tool in type.tools %}
         <li class="list-group-item col-md-4 brdr-rds-0">
-          <h3 class="list-group-item-heading">{{ tool.name }}<br />{{ tool.product }}</h3>
+          {% if tool.product %}
+			  <h3 class="list-group-item-heading">{{ tool.name }}<br />{{ tool.product }}</h3>
+		  {% else %}
+			  <h3 class="list-group-item-heading">{{ tool.name }}</h3>
+		  {% endif %}
           <ul class="list-group-item-text list-inline">
+
             {% if tool.pricing %}
               <li>{{ tool.pricing }}</li>
             {% endif %}
