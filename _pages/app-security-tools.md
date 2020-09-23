@@ -42,7 +42,7 @@ NOTE: Developers can use any other supported security tools to fit their needs, 
   </li>
 {% endfor %}
 </ul>
-## Additional Authorized Security Tools
+## Additional Recommended Security Tools
 
 The following tools also integrate with the Threadfix corporate AVM tool and can be used instead of the standard tools listed above however, IT Security will not take ownership of these tools and may not be able to provide support for it.
 <ul class="list-unstyled">
@@ -52,7 +52,7 @@ The following tools also integrate with the Threadfix corporate AVM tool and can
     <summary>
       <h2 class="h3" id="{{ type.focus | slugify }}">{{ type.focus }}</h2>
     </summary>
-    <p><strong>Additional Supported Tool(s):</strong></p>
+    <p><strong>Additional Recommended Tool(s):</strong></p>
     <ul class="list-group list-inline row mrgn-lft-0 mrgn-rght-0">
       {% for tool in type.tools %}
         <li class="list-group-item col-md-4 brdr-rds-0">
