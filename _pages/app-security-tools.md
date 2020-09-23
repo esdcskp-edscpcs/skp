@@ -34,10 +34,10 @@ NOTE: Developers can use any other supported security tools to fit their needs, 
 				  <li>{{ tool.availability }}</li>
 				{% endif %}
 				{% if tool.details %}
-				  <li><a href="{{ tool.details }}">Details</a></li>
+				  <li><a href="{{ tool.details }}" target="_blank">Details</a></li>
 				{% endif %}
 				{% if tool.guide %}
-				  <li><a href="{{ tool.guide }}">Guide</a></li>
+				  <li><a href="{{ tool.guide }}" target="_blank">Guide</a></li>
 				{% endif %}
 			  </ul>
 			</li>
@@ -73,10 +73,10 @@ The following tools also integrate with the Threadfix corporate AVM tool and can
 				  <li>{{ tool.pricing }}</li>
 				{% endif %}
 				{% if tool.details %}
-				  <li><a href="{{ tool.details }}">Details</a></li>
+				  <li><a href="{{ tool.details }}" target="_blank">Details</a></li>
 				{% endif %}
 				{% if tool.guide %}
-				  <li><a href="{{ tool.guide }}">Guide</a></li>
+				  <li><a href="{{ tool.guide }}" target="_blank">Guide</a></li>
 				{% endif %}
 			  </ul>
 			</li>

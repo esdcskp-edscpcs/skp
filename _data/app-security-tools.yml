@@ -7,7 +7,7 @@ standard:
     tools:
       - name: Microfocus Fortify Static Code Analyzer
         availability: "On Premise/Cloud"
-        details: "../fortify-sca"
+        details: "https://www.microfocus.com/en-us/products/static-code-analysis-sast/overview"
         guide: "../guides/mf-fortify-sca-wi-integration-with-jenkins"
   - focus: "Dynamic Application Security Testing (DAST)"
     definition: |
@@ -17,10 +17,10 @@ standard:
     tools:
       - name: OWASP ZAP
         availability: "On Premise/Cloud"
-        details: "../owasp-zap"
+        details: "https://owasp.org/www-project-zap/"
       - name: Microfocus Fortify Web Inspect
         availability: "On Premise"
-        details: "../fortify-wi"
+        details: "https://www.microfocus.com/en-us/products/webinspect-dynamic-analysis-dast/overview"
         guide: "../guides/mf-fortify-sca-wi-integration-with-jenkins"        
   - focus: "Software Composition Analysis (SCA)"
     definition: |
@@ -29,14 +29,14 @@ standard:
     tools:
       - name: Sonatype Nexus Lifecycle
         availability: "Cloud"
-        details: "../sonatype-nexus-lifecycle"
+        details: "https://www.sonatype.com/nexus/lifecycle"
   - focus: "Container Security"
     definition: |     
       <p>Container security tools will help scanning container images, VM images, and functions for known vulnerabilities, embedded secrets, malware, configuration issues, and over-provisioned permissions, integrating directly to the CI pipeline, as well as into registries or function stores. Additionally, they can detect and prevent images with hidden malware that evade static scanning from being deployed in production environments, and "shifts left" incident response.</p>      
     tools:
       - name: Aqua Security
         availability: "Cloud"
-        details: "../aqua-security"
+        details: "https://www.aquasec.com/products/container-security/"
   - focus: "Interactive Application Security Testing"
     definition: |     
       <p>Because both SAST and DAST are older technologies, there are those who argue they lack what it takes to secure modern web and mobile apps. For example, SAST has a difficult time dealing with libraries and frameworks found in modern apps. That’s because static tools only see the application source code they can follow. What’s more, libraries and third­party components often cause static tools to choke, producing “lost sources” and “lost sinks” messages. The same is true for frameworks. Run a static tool on an API, web service or REST endpoint, and it won’t find anything wrong in them because it can’t understand the framework.</p>
@@ -48,130 +48,126 @@ supported:
       - name: FindBugs 2
         product: <br />
         pricing: "Open Source"
-        details: "../findbugs2"
+        details: "http://findbugs.sourceforge.net/findbugs2.html"
       - name: Brakeman
         product: <br />
         pricing: "Open Source"
-        details: "../brakeman"
+        details: "https://brakemanscanner.org/docs/introduction/"
       - name: Synopsis
         product: Coverity
         pricing: "Open Source"
-        details: "../synopsis-coverity"   
+        details: "https://scan.coverity.com/"   
       - name: SonarQube
         product: <br />
         pricing: "Open Source"
-        details: "../sonarqube"        
+        details: "https://www.sonarqube.org/"        
       - name: Whitehat Security
         product: Sentinel Source
         pricing: "Paid Solution"
-        details: "../ws-sentinel-source"
+        details: "https://www.whitehatsec.com/wp-content/uploads/2019/09/sentinel-source-data-sheet.pdf"
       - name: Checkmarx
         product: CxSAST
         pricing: "Paid Solution"
-        details: "../checkmarx-cxsast"
+        details: "https://info.checkmarx.com/cs/c/?cta_guid=053c822b-50f2-49ad-90b7-63132e8e92a5&placement_guid=d867b379-e966-4445-a5d3-bdb11e842d5f&portal_id=146169&canon=https%3A%2F%2Fwww.checkmarx.com%2Fresources%2Fdatasheets%2F&redirect_url=APefjpHRODT5ljw5fwOmt3wrG6pY-tk2UmILxJyUkiim0O5lMAmTW-aHY5yR_-SWjkgCXabR84Bb2GkW0GhvxbyvXGNA9Zt78SY65VT-RWNytiBcXSaQoCAXADhG26fFLwzgUpFdvja3ve6vu33xWWAclRgLfEL1RHzE_O9zUjO8dGaC28GwYHxWA0rNitN3ELHJ5gTXmr1XULn5k5armOG0AHTcUT_BuQLnxC03J_vNOdyrxrQNX1icZGP0FpRlKn9xBTL8-eCCy2EqM_wtoLLn-PP5mVB0W3fHqX1VdzKsM6JGv3gSAnI&click=3eb86f62-b61e-4359-9134-925313b25e84&hsutk=0f3d263cbc849ffe3a5a1cea61bed534&signature=AAH58kG78oRavDIQYSz8pMIrWXZo854VoA&utm_referrer=https%3A%2F%2Fwww.google.com%2F&__hstc=206289484.0f3d263cbc849ffe3a5a1cea61bed534.1580481761772.1580481761772.1580497654586.2&__hssc=206289484.1.1580497654586&__hsfp=93133625"
       - name: HCL
         product: AppScan Source
         pricing: "Paid Solution"
-        details: "../hcl-appscan-source"        
+        details: "https://www.hcltechsw.com/wps/wcm/connect/b2e02c11-d358-49ee-9f41-e9991d9a9a46/WX-IC6984-AT109398+HCL+AppScan+Source+Brochure.pdf?MOD=AJPERES&CONVERT_TO=url&CACHEID=ROOTWORKSPACE-b2e02c11-d358-49ee-9f41-e9991d9a9a46-mKf8tkr"        
       - name: HCL
         product: AppScan On Cloud
         pricing: "Paid Solution"
-        details: "../hcl-appscan-on-cloud"               
+        details: "https://www.hcltechsw.com/wps/wcm/connect/a4d045e1-6fff-450e-bfc9-5ea11ad4b5ae/WX-IC6984-AT109395+AppScan+on+Cloud+Brochure.pdf?MOD=AJPERES&CONVERT_TO=url&CACHEID=ROOTWORKSPACE-a4d045e1-6fff-450e-bfc9-5ea11ad4b5ae-mKf7Ve8"               
       - name: Virtual Forge
         product: Code Profiler
         pricing: "Paid Solution"
-        details: "../vf-code-profiler"  
+        details: "https://cdn2.hubspot.net/hubfs/697523/Virtual%20Forge_Code_Security_Solutionbrief_EN_WEB.pdf?__hssc=147524648.3.1580757599667&__hstc=147524648.89a4238cbd541b15661eda1359763e1c.1580482300490.1580482300490.1580757599667.2&__hsfp=93133625&hsCtaTracking=4fc6f545-5521-4f8a-b768-45e472a2cd3f%7C7c60ab6e-8746-40e1-89d9-d1a734405cce"  
       - name: Veracode
         product: Binary Static Analysis
         pricing: "Paid Solution"
-        details: "../vc-binary-static-analysis"
+        details: "https://www.veracode.com/products/binary-static-analysis-sast"
   - focus: "Dynamic Application Security Testing (DAST)"
     tools:
       - name: Arachni
         product: <br />
         pricing: "Open Source"
-        details: "../arachni"
+        details: "https://www.arachni-scanner.com/"
       - name: W3AF
         product: <br />
         pricing: "Open Source"
-        details: "../w3af"
+        details: "http://w3af.org/"
       - name: SkipFish
         product: <br />
         pricing: "Open Source"
-        details: "../skipfish"   
+        details: "https://tools.kali.org/web-applications/skipfish"   
       - name: Portswigger
         product: BurpSuite Pro
         pricing: "Paid Solution"
-        details: "../burpsuite-pro"
+        details: "https://portswigger.net/burp/Burp%20Suite%20Pro%20Data%20sheet.pdf"
       - name: Whitehat
         product: Sentinel Dynamic
         pricing: "Paid Solution"
-        details: "../wh-sentinel-dynamic"
+        details: "https://www.whitehatsec.com/wp-content/uploads/2016/01/Sentinel-Dynamic-Datasheet-2019-1.pdf"
       - name: Acunetix
         product: <br />
         pricing: "Paid Solution"
-        details: "../acunetix"        
+        details: "https://www.acunetix.com/"        
       - name: Netsparker
         product: <br />
         pricing: "Paid Solution"
-        details: "../netsparker"               
+        details: "https://www.netsparker.com/statics/Netsparker-Datasheet-Web-Version.pdf"               
       - name: Qualys
         product: Web Application Scanning
         pricing: "Paid Solution"
-        details: "../qualys-was"  
+        details: "https://www.qualys.com/docs/web-application-scanning-datasheet.pdf"  
       - name: Rapid7
         product: AppSpider
         pricing: "Paid Solution"
-        details: "../rapid7-appspider"      
+        details: "https://www.rapid7.com/products/insightappsec/features/"      
       - name: HCL
         product: AppScan Enterprise
         pricing: "Paid Solution"
-        details: "../hcl-appscan-enterprise"      
+        details: "https://www.hcltechsw.com/wps/wcm/connect/ce3e6bf7-6290-40e5-a0bf-8b632031edd8/WX-IC6984-AT109404+HCL+AppScan+Enterprise.pdf?MOD=AJPERES&CONVERT_TO=url&CACHEID=ROOTWORKSPACE-ce3e6bf7-6290-40e5-a0bf-8b632031edd8-mKf8mxI"      
       - name: HCL
         product: AppScan Standard
         pricing: "Paid Solution"
-        details: "../hcl-appscan-standard"      
+        details: "https://www.hcltechsw.com/wps/wcm/connect/516e34e8-cef7-4b73-94a0-0b9c92c02b1f/WX-IC6984-AT109392+HCL+AppScan+Standard.pdf?MOD=AJPERES&CONVERT_TO=url&CACHEID=ROOTWORKSPACE-516e34e8-cef7-4b73-94a0-0b9c92c02b1f-mKf8pw9"      
       - name: HCL
         product: AppScan On Cloud
         pricing: "Paid Solution"
-        details: "../hcl-appscan-on-cloud"      
+        details: "https://www.hcltechsw.com/wps/wcm/connect/a4d045e1-6fff-450e-bfc9-5ea11ad4b5ae/WX-IC6984-AT109395+AppScan+on+Cloud+Brochure.pdf?MOD=AJPERES&CONVERT_TO=url&CACHEID=ROOTWORKSPACE-a4d045e1-6fff-450e-bfc9-5ea11ad4b5ae-mKf7Ve8"      
       - name: Tenable.io
         product: <br />
         pricing: "Paid Solution"
-        details: "../tenable-io"      
+        details: "https://www.tenable.com/sites/drupal.dmz.tenablesecurity.com/files/datasheets/DataSheet-Tenable.io_.pdf"      
       - name: Veracode
         product: Dynamic Analysis
         pricing: "Paid Solution"
-        details: "../vc-dynamic-analysis"
+        details: "https://www.veracode.com/products/dynamic-analysis-dast"
   - focus: "Software Composition Analysis (SCA)"
     tools:
       - name: OWASP
         product: Dependency-Check
         pricing: "Open Source"
-        details: "../owasp-dependency-check"
+        details: "https://owasp.org/www-project-dependency-check/"
       - name: Snyk
-        product: <br />
+        product: Open Source
         pricing: "Paid Solution"
-        details: "../snyk"     
-      - name: JFrog
-        product: Xray
-        pricing: "Paid Solution"
-        details: "../jfrog-xray"         
+        details: "https://snyk.io/product/open-source-security-management/"     
       - name: Veracode
         product: Software Composition Analysis
         pricing: "Paid Solution"
-        details: "../vc-soft-comp-analysis"         
+        details: "https://www.veracode.com/products/software-composition-analysis"         
       - name: Synopsis
         product: BlackDuck
         pricing: "Paid Solution"
-        details: "../synopsis-black-duck"         
+        details: "https://www.synopsys.com/software-integrity/security-testing/software-composition-analysis.html"         
       - name: WhiteSource
         product: <br />
         pricing: "Paid Solution"
-        details: "../whitesource"    
+        details: "https://www.whitesourcesoftware.com/open-source-scan-lp/?utm_origin=ad&utm_from=Bing&utm_pcampaign=fs.brand.us-ca.search&utm_gen=Searched%20Term:whitesource&msclkid=f2e4c7439e75170c7bdb9828147d1530&utm_source=bing&utm_medium=cpc&utm_campaign=fs.brand.us-ca.search&utm_term=whitesource&utm_content=WhiteSource"    
   - focus: "Interactive Application Security Testing (IAST)"
     tools:
       - name: Contrast Security
-        product: <br />
+        product: Assess
         pricing: "Paid Solution"
-        details: "../contrast-security"        
+        details: "https://www.contrastsecurity.com/interactive-application-security-testing-iast"        
