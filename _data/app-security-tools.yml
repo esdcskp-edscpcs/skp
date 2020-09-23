@@ -38,21 +38,27 @@ standard:
 supported:
   - focus: "Static Application Security Testing (SAST)"
     tools:
-      - name: Whitehat Security Sentinel Source
+      - name: Whitehat Security
+        product: Sentinel Source
         pricing: "Paid Solution"
         details: "../ws-sentinel-source"
-      - name: Checkmarx CxSast
+      - name: Checkmarx
+        product: CxSAST
         pricing: "Paid Solution"
         details: "../checkmarx-cxsast"
-      - name: HCL AppScan Source
+      - name: HCL
+        product: AppScan Source
         pricing: "Paid Solution"
         details: "../hcl-appscan-source"        
-      - name: HCL AppScan On Cloud
+      - name: HCL
+        product: AppScan On Cloud
         pricing: "Paid Solution"
         details: "../hcl-appscan-on-cloud"               
-      - name: Virtual Forge Code Profiler
+      - name: Virtual Forge
+        product: Code Profiler
         pricing: "Paid Solution"
         details: "../vf-code-profiler"  
-      - name: Veracode Binary Static Analysis
+      - name: Veracode
+        product: Binary Static Analysis
         pricing: "Paid Solution"
         details: "../vc-binary-static-analysis"
