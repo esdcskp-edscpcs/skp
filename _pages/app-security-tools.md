@@ -4,7 +4,7 @@ layout: default
 permalink: /app-security-tools/
 ---
 
-## ESDC STANDARD Security Tools
+## ESDC Standard Security Tools
 
 IT Security requires development teams to integrate into their CI/CD Pipeline at least the following types of security testing using the recommended tools. The following tools are standard within the departement and integrates with the **Threadfix** corporate Application Vulnerabilities Management (AVM) tool.
 
