@@ -23,7 +23,7 @@ permalink: /security-champions/
 							<li><a href="#roles-and-responsibilities">Roles and Responsibilities</a></li>
 							<li><a href="#implementing-and-managing-security-tools">Implementing and managing security tools</a></li>
 							<li><a href="#training">Training</a></li>
-							<li><a href="#Collaboration">Collaboration</a></li>
+							<li><a href="#collaboration">Collaboration</a></li>
 						</ul>
 					</li>								
 					<li><a href="#security-tools-management">Security Tools Management</a></li>			
