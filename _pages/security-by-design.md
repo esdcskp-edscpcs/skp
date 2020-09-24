@@ -4,27 +4,43 @@ layout: default
 permalink: /security-by-design/
 ---
 
-# Table of Contents
-- [Security by Design in ESDC](#security-by-design-in-esdc)
-- [Security by Design according to OWASP](#security-by-design-according-to-owasp)
-  * [Asset classification](#asset-classification)
-  * [About attackers](#about-attackers)
-  * [Core pillars of information security](#core-pillars-of-information-security)
-  * [Security architecture](#security-architecture)
-  * [Security principles](#security-principles)
-    + [Minimize attack surface area](#minimize-attack-surface-area)
-    + [Establish secure defaults](#establish-secure-defaults)
-    + [Principle of Least privilege](#principle-of-least-privilege)
-    + [Principle of Defense in depth](#principle-of-defense-in-depth)
-    + [Fail securely](#fail-securely)
-    + [Don’t trust services](#dont-trust-services)
-    + [Separation of duties](#separation-of-duties)
-    + [Avoid security by obscurity](#avoid-security-by-obscurity)
-    + [Keep security simple](#keep-security-simple)
-    + [Fix security issues correctly](#fix-security-issues-correctly)
-
+<ul class="list-unstyled">
+  <li>
+  <details>
+    <summary>
+		<h1 class="h3">Table of Contents</h1>
+	</summary>
+	<p>
+		<ul>
+		<li><a href="#security-by-design-in-esdc">Security by Design in ESDC</a></li>
+		<li><a href="#security-by-design-according-to-owasp">Security by Design according to OWASP</a><ul>
+		<li><a href="#asset-classification">Asset classification</a></li>
+		<li><a href="#about-attackers">About attackers</a></li>
+		<li><a href="#core-pillars-of-information-security">Core pillars of information security</a></li>
+		<li><a href="#security-architecture">Security architecture</a></li>
+		<li><a href="#security-principles">Security principles</a><ul>
+		<li><a href="#minimize-attack-surface-area">Minimize attack surface area</a></li>
+		<li><a href="#establish-secure-defaults">Establish secure defaults</a></li>
+		<li><a href="#principle-of-least-privilege">Principle of Least privilege</a></li>
+		<li><a href="#principle-of-defense-in-depth">Principle of Defense in depth</a></li>
+		<li><a href="#fail-securely">Fail securely</a></li>
+		<li><a href="#dont-trust-services">Don’t trust services</a></li>
+		<li><a href="#separation-of-duties">Separation of duties</a></li>
+		<li><a href="#avoid-security-by-obscurity">Avoid security by obscurity</a></li>
+		<li><a href="#keep-security-simple">Keep security simple</a></li>
+		<li><a href="#fix-security-issues-correctly">Fix security issues correctly</a></li>
+		</ul>
+		</li>
+		</ul>
+		</li>
+		</ul>
+	</p>
+  </details>
+  </li>
+</ul>	
 
 # Security by Design in ESDC
+
 *Security by Design is an approach to software and hardware development that seeks to make systems as free of vulnerabilities and impervious to attack as possible. It is the process that integrates security in the system development lifecycle process (SDLC).*
 
 * Currently when solutions are developed, security assurance is performed at the end of the project resulting in ineffective mitigation.  
