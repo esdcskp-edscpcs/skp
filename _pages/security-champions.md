@@ -9,46 +9,46 @@ permalink: /security-champions/
   <details>
     <summary>
 		<h2 class="h3">Table of Contents</h2>
-		<p>
-			<ul>
-				<li><a href="#security-champions-overview">Security Champions Overview</a></li>
-				<li>
-					<ul>
-						<li><a href="#background">Background</a></li>
-						<li><a href="#the-security-champion-objectives">The Security Champion Objectives</a></li>
-						<li><a href="#roles-and-responsibilities-as-a-security-champion">Roles and Responsibilities as a Security Champion</a></li>
-						<li>
-							<ul>
-								<li><a href="#roles-and-responsibilities">Roles and Responsibilities</a></li>
-								<li><a href="#implementing-and-managing-security-tools">Implementing and managing security tools</a></li>
-								<li><a href="#training">Training</a></li>
-								<li><a href="#Collaboration">Collaboration</a></li>
-							</ul>
-						</li>								
-						<li><a href="#security-tools-management">Security Tools Management</a></li>			
-						<li><a href="#the-end-goal">The End Goal</a></li>			
-						<li><a href="#getting-to-know-our-partners">Getting to know our Partners</a></li>
-						<li>
-							<ul>
-								<li><a href="#business">Business</a></li>
-								<li><a href="#the-it-security-teams">The IT Security Teams</a></li>
-							</ul>
-						</li>						
-						<li><a href="#security-assessment-approach">Security Assessment Approach</a></li>	
-					</ul>				
-				</li>
-				<li><a href="#become-a-security-champion">Become a Security Champion</a></li>
-				<li>
-					<ul>
-						<li><a href="#reasons-to-become-a-security-champion">Reasons to become a Security Champion</a></li>
-						<li><a href="#details">Details</a></li>
-						<li><a href="#how-can-i-become-a-security-champion">How can I become a Security Champion</a></li>
-					</ul>
-				</li>
-				<li><a href="#our-security-champions">Our Security Champions</a></li>
-			</ul>
-		</p>
-    </summary>
+	</summary>
+	<p>
+		<ul>
+			<li><a href="#security-champions-overview">Security Champions Overview</a></li>
+			<li>
+				<ul>
+					<li><a href="#background">Background</a></li>
+					<li><a href="#the-security-champion-objectives">The Security Champion Objectives</a></li>
+					<li><a href="#roles-and-responsibilities-as-a-security-champion">Roles and Responsibilities as a Security Champion</a></li>
+					<li>
+						<ul>
+							<li><a href="#roles-and-responsibilities">Roles and Responsibilities</a></li>
+							<li><a href="#implementing-and-managing-security-tools">Implementing and managing security tools</a></li>
+							<li><a href="#training">Training</a></li>
+							<li><a href="#Collaboration">Collaboration</a></li>
+						</ul>
+					</li>								
+					<li><a href="#security-tools-management">Security Tools Management</a></li>			
+					<li><a href="#the-end-goal">The End Goal</a></li>			
+					<li><a href="#getting-to-know-our-partners">Getting to know our Partners</a></li>
+					<li>
+						<ul>
+							<li><a href="#business">Business</a></li>
+							<li><a href="#the-it-security-teams">The IT Security Teams</a></li>
+						</ul>
+					</li>						
+					<li><a href="#security-assessment-approach">Security Assessment Approach</a></li>	
+				</ul>				
+			</li>
+			<li><a href="#become-a-security-champion">Become a Security Champion</a></li>
+			<li>
+				<ul>
+					<li><a href="#reasons-to-become-a-security-champion">Reasons to become a Security Champion</a></li>
+					<li><a href="#details">Details</a></li>
+					<li><a href="#how-can-i-become-a-security-champion">How can I become a Security Champion</a></li>
+				</ul>
+			</li>
+			<li><a href="#our-security-champions">Our Security Champions</a></li>
+		</ul>
+	</p>
   </details>
   </li>
 </ul>
