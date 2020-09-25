@@ -7,11 +7,8 @@ permalink: /events/
 {% if site.data.events.next %}
 <div class="well">
     <h2 id="next-event">Our Next Event</h2>
-    <p class="lead">The next event is planned for <strong>{{ site.data.events.next.date }}</strong> on <a href="https://github.com/esdc-devcop/esdc-devcop.github.io/issues/{{ site.data.events.next.id }}">{{ site.data.events.next.topic }}</a></p>
+    <p class="lead">The next event is planned for <strong>{{ site.data.events.next.date }}</strong></p>
     <p>{{ site.data.events.next.overview }}</p>
-    {% if site.data.events.next.part2 %}
-    <p class="text-muted">{{ site.data.events.next.part2 }}</p>
-    {% endif %}
 </div>
 {% endif %}
 
@@ -28,10 +25,6 @@ permalink: /events/
             <dl>
                 <dt>Presented on:</dt>
                 <dd>{{ event.date }}</dd>
-    {% if event.id %}
-                <dt>GitHub Issue:</dt>
-                <dd><a href="https://github.com/esdc-devcop/esdc-devcop.github.io/issues/{{ event.id }}">#{{ event.id }}</a></dd>
-    {% endif %}
             </dl>
         </div>
     {% if event.recording %}
