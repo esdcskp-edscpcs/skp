@@ -192,7 +192,7 @@ In addition, you will become a participating member of the Security Champion Net
 
 ## How can I become a Security Champion
 
-You can send a request directly into the MS Teams [Security Champions Network - Become a Security Champion channel](https://teams.microsoft.com/l/channel/19%3acc911cac1b4b4d1f9f66544125b384ac%40thread.tacv2/Become%2520a%2520Security%2520Champion?groupId=bea80905-7f0f-432d-9a83-60561c1efcd2&tenantId=9ed55846-8a81-4246-acd8-b1a01abfc0d1).
+You can send a request directly into the MS Teams [Réseau des champions de la sécurité d'EDSC / ESDC Security Champions Network - Become a Security Champion channel](https://teams.microsoft.com/l/channel/19%3acc911cac1b4b4d1f9f66544125b384ac%40thread.tacv2/Become%2520a%2520Security%2520Champion?groupId=bea80905-7f0f-432d-9a83-60561c1efcd2&tenantId=9ed55846-8a81-4246-acd8-b1a01abfc0d1).
 
 # Our Security Champions
 
