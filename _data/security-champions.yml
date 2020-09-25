@@ -8,6 +8,7 @@ products:
       - name: "Turner, Ken M [NC]"
         phone: "819-654-1301"
       - name: "Guimont, Charles CM"
+        phone: ""
   - name: "Corporate Correspondance Solutions (CCS)"
     nominatedby:
       - name: "Squibb, Lemonte L [NC]"
