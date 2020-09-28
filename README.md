@@ -3,7 +3,7 @@
 This repository is used as the main site of our knowledge portal for the English version.
 <https://esdcskp-edscpcs.github.io/skp/>
 
-The French version can be found at [https://esdcskp-edscpcs.github.io/pcs/](https://esdcskp-edscpcs.github.io/pcs/).
+The French version of this repository can be found at [https://github.com/esdcskp-edscpcs/pcs](https://github.com/esdcskp-edscpcs/pcs).
 
 ## Help Out
 
