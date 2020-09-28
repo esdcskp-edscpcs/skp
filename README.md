@@ -1,9 +1,9 @@
 # ESDC Security Knowledge Portal
 
 This repository is used as the main site of our knowledge portal for the English version.
-<https://esdc-skp.github.io/>
+<https://esdcskp-edscpcs.github.io/skp/>
 
-The French version can be found at [https://edsc-pcs.github.io](https://edsc-pcs.github.io).
+The French version can be found at [https://esdcskp-edscpcs.github.io/pcs/](https://esdcskp-edscpcs.github.io/pcs/).
 
 ## Help Out
 

@@ -1,4 +1,4 @@
-# Contributor Covenant Code of Conduct for the 'esdc-skp.github.io' project
+# Contributor Covenant Code of Conduct for the 'esdcskp-edscpcs.github.io' project
 
 Contributors to repositories hosted in 'esdc-skp.github.io' are expected to follow the Contributor Covenant Code of Conduct, and those working within Government are also expected to follow the Values and Ethics Code for the Public Sector
 
