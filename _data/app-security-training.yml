@@ -18,7 +18,7 @@ cloud:
         <li>5 days course</li>
         <li>Live/Online</li>
         <li>$2995.00</li>
-        <li>Preparation for exam: [AZ-204](https://docs.microsoft.com/en-gb/learn/certifications/exams/az-204)
+        <li>Preparation for exam: [AZ-204](https://docs.microsoft.com/en-gb/learn/certifications/exams/az-204)</li>
       </ul>       
 secureapplications:
   - title: "DevSecOps Foundation (DSOF)"
