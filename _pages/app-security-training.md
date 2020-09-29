@@ -4,8 +4,11 @@ layout: no-banner
 permalink: /app-security-training/
 ---
 
+
+
 <ul class="list-unstyled">
-{% for course in site.data.app-security-training.training %}
+{% assign list_of_courses = app-security-training.training | sort_natural: "title" %}
+{% for course in list_of_courses %}
   <li>
   <details>
     <summary>
