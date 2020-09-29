@@ -9,6 +9,17 @@ cloud:
         <li>Live/Online</li>
         <li>$6600.00 USD</li>
       </ul> 
+  - title: "AZ-204T00-A: Developing solutions for Microsoft Azure"
+    details: |
+      <img src="../assets/Microsoft.jpg">
+      <ul>
+        <li><a href="https://docs.microsoft.com/en-gb/learn/certifications/courses/az-204t00" target="_blank">Course Details and Schedule</a></li>
+        <li>Level: Intermediate</li>
+        <li>5 days course</li>
+        <li>Live/Online</li>
+        <li>$2995.00</li>
+        <li>Preparation for exam: [AZ-204](https://docs.microsoft.com/en-gb/learn/certifications/exams/az-204)
+      </ul>       
 secureapplications:
   - title: "DevSecOps Foundation (DSOF)"
     details: |
