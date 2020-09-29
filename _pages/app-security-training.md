@@ -26,7 +26,7 @@ permalink: /app-security-training/
 
 <p>
 	<ul class="list-unstyled">
-	{% assign list_of_courses = site.data.app-security-training.securesoftware | sort_natural: "title" %}
+	{% assign list_of_courses = site.data.app-security-training.secureapplications | sort_natural: "title" %}
 	{% for course in list_of_courses %}
 	  <li>
 	  <details>
