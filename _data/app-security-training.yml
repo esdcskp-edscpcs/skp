@@ -9,7 +9,7 @@ cloud:
         <li>Live/Online</li>
         <li>$6600.00 USD</li>
       </ul> 
-securesoftware:
+secureapplications:
   - title: "DevSecOps Foundation (DSOF)"
     details: |
       <img src="../assets/Learning-Tree.PNG">

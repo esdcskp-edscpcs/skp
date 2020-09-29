@@ -22,7 +22,7 @@ permalink: /app-security-training/
 	</ul>
 </p>
 
-## Secure Software
+## Secure Applications
 
 <p>
 	<ul class="list-unstyled">
