@@ -13,7 +13,7 @@ permalink: /app-security-training/
 	  <li>
 	  <details>
 		<summary>
-		  <h2 class="h3" id="{{ course.title | slugify }}">{{ course.title }}</h2>
+		  <h3 id="{{ course.title | slugify }}">{{ course.title }}</h3>
 		</summary>
 		{{ course.details }}
 	  </details>
@@ -31,7 +31,7 @@ permalink: /app-security-training/
 	  <li>
 	  <details>
 		<summary>
-		  <h2 class="h3" id="{{ course.title | slugify }}">{{ course.title }}</h2>
+		  <h3 id="{{ course.title | slugify }}">{{ course.title }}</h3>
 		</summary>
 		{{ course.details }}
 	  </details>
