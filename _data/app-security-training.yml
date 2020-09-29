@@ -1,5 +1,16 @@
-training:
-  - title: "Learning Tree: DevSecOps Foundation (DSOF)"
+cloud:
+  - title: "SEC540 - Cloud Security and DevOps Automation"
+    details: |
+      <img src="../assets/SANS.PNG">
+      <ul>
+        <li><a href="https://www.sans.org/course/secure-devops-cloud-application-security" target="_blank">Course Details and Schedule</a></li>
+        <li>Level: Intermediate</li>
+        <li>5 days course</li>
+        <li>Live/Online</li>
+        <li>$6600.00 USD</li>
+      </ul> 
+securesoftware:
+  - title: "DevSecOps Foundation (DSOF)"
     details: |
       <img src="../assets/Learning-Tree.PNG">
       <ul>
@@ -8,7 +19,7 @@ training:
         <li>At our site</li>
         <li>Price Not available</li>
       </ul>
-  - title: "Learning Tree: Full Stack Cybersecurity Training for Web Apps and Services"
+  - title: "Full Stack Cybersecurity Training for Web Apps and Services"
     details: |
       <img src="../assets/Learning-Tree.PNG">
       <ul>
@@ -19,7 +30,7 @@ training:
         <li>Laptop required</li>
         <li>$2890.00</li>
       </ul>
-  - title: "Canadian Centre for Cyber Security: 335 - Cyber Security in the GC for Software Development Teams"
+  - title: "335 - Cyber Security in the GC for Software Development Teams"
     details: |
       <img src="../assets/Cyber-Centre-Learning-Hub.PNG">
       <ul>
@@ -29,7 +40,7 @@ training:
         <li>In Class/At our site</li>
         <li>$500.00 (Group price available)</li>
       </ul>
-  - title: "Canadian Centre for Cyber Security: 910- IT Security Risk Management Bootcamp"
+  - title: "910- IT Security Risk Management Bootcamp"
     details: |
       <img src="../assets/Cyber-Centre-Learning-Hub.PNG">
       <ul>
@@ -39,7 +50,7 @@ training:
         <li>In Class/At our site</li>
         <li>$2000.00 (Group price available)</li>
       </ul>      
-  - title: "Learning Tree: Certified Secure Software Lifecycle Professional (CSSLP) Training"
+  - title: "Certified Secure Software Lifecycle Professional (CSSLP) Training"
     details: |
       <img src="../assets/Learning-Tree.PNG">
       <ul>
@@ -49,17 +60,7 @@ training:
         <li>In Class/Live/Online/At our site</li>
         <li>$4790.00 (Group price available)</li>
       </ul>     
-  - title: "SANS: SEC540 - Cloud Security and DevOps Automation"
-    details: |
-      <img src="../assets/SANS.PNG">
-      <ul>
-        <li><a href="https://www.sans.org/course/secure-devops-cloud-application-security" target="_blank">Course Details and Schedule</a></li>
-        <li>Level: Intermediate</li>
-        <li>5 days course</li>
-        <li>Live/Online</li>
-        <li>$6600.00 USD</li>
-      </ul> 
-  - title: "Ultimate IT Courses: Certified Secure Web Applications Engineer - Ultimate C)SWAE Self Study Package"
+  - title: "Certified Secure Web Applications Engineer - Ultimate C)SWAE Self Study Package"
     details: |
       <img src="../assets/Ultimate-IT-Courses.png">
       <ul>

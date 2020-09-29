@@ -1,13 +1,32 @@
 ---
-title: Application Security Training
+title: Training
 layout: no-banner
 permalink: /app-security-training/
 ---
 
-<p>A list of application security courses. Group prices are available for some of the courses.</p>
+## Cloud Development
+
 <p>
 	<ul class="list-unstyled">
-	{% assign list_of_courses = site.data.app-security-training.training | sort_natural: "title" %}
+	{% assign list_of_courses = site.data.app-security-training.cloud | sort_natural: "title" %}
+	{% for course in list_of_courses %}
+	  <li>
+	  <details>
+		<summary>
+		  <h2 class="h3" id="{{ course.title | slugify }}">{{ course.title }}</h2>
+		</summary>
+		{{ course.details }}
+	  </details>
+	  </li>
+	{% endfor %}
+	</ul>
+</p>
+
+## Secure Software
+
+<p>
+	<ul class="list-unstyled">
+	{% assign list_of_courses = site.data.app-security-training.securesoftware | sort_natural: "title" %}
 	{% for course in list_of_courses %}
 	  <li>
 	  <details>
