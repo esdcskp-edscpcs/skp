@@ -3,6 +3,10 @@ layout: default
 title: Welcome to the ESDC Security Knowledge Portal!
 ---
 
+**Important Security Note:** This site was created via the Github platform and is therefore hosted outside the ministry. Please ensure that you never provide personal and / or sensitive information on this site or in any section that allows you to provide feedback.
+
+<hr />
+
 This knowledge portal provides a number of helpful resources for developers and Security Champions in order to help them implement security best practices while they develop their product which would result in a product **secure by design**.
 
 ## Security by Design?
