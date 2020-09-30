@@ -3,7 +3,7 @@ layout: default
 title: Welcome to the ESDC Security Knowledge Portal!
 ---
 
-**Important Security Note:** This site was created via the Github platform and is therefore hosted outside the ministry. Please ensure that you never provide personal and / or sensitive information on this site or in any section that allows you to provide feedback.
+**Important Security Note:** This site was created via the Github platform and is therefore hosted outside the department. Please ensure that you never provide personal and / or sensitive information on this site or in any section that allows you to provide feedback.
 
 <hr />
 
