@@ -89,4 +89,13 @@ secureapplications:
         <li>Level: Intermediate</li>
         <li>Self Study Package</li>
         <li>$1200.00</li>
-      </ul>        
+      </ul> 
+  - title: "Threat Modeling Security Fundamentals"
+    details: |
+      <img src="../assets/Microsoft.jpg">
+      <ul>
+        <li><a href="https://docs.microsoft.com/en-ca/learn/paths/tm-threat-modeling-fundamentals/" target="_blank">Course Details and Schedule</a></li>
+        <li>Level: Beginner</li>
+        <li>Self Study Package</li>
+        <li>Free</li>
+      </ul>       
