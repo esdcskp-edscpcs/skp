@@ -99,7 +99,6 @@ secureapplications:
         <li>Self Study Package</li>
         <li>Free</li>
       </ul>
-securitytools:
   - title: "Sonatype Learning Paths"
     details: |
       <img src="../assets/Sonatype.PNG">

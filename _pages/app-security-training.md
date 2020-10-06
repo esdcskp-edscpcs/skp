@@ -39,21 +39,3 @@ permalink: /app-security-training/
 	{% endfor %}
 	</ul>
 </p>
-
-## Security Tools
-
-<p>
-	<ul class="list-unstyled">
-	{% assign list_of_courses = site.data.app-security-training.securitytools | sort_natural: "title" %}
-	{% for course in list_of_courses %}
-	  <li>
-	  <details>
-		<summary>
-		  <h3 id="{{ course.title | slugify }}">{{ course.title }}</h3>
-		</summary>
-		{{ course.details }}
-	  </details>
-	  </li>
-	{% endfor %}
-	</ul>
-</p>
