@@ -98,4 +98,20 @@ secureapplications:
         <li>Level: Beginner</li>
         <li>Self Study Package</li>
         <li>Free</li>
-      </ul>       
+      </ul>
+  - title: "Sonatype Learning Paths"
+    details: |
+      <img src="../assets/Sonatype.PNG">
+      <ul>
+        <li><a href="https://learn.sonatype.com/learning-paths" target="_blank">Course Details and Schedule</a></li>
+        <li>Level: Beginner</li>
+        <li>Self Study Packages</li>
+        <li>Paths available:
+            <ul>
+                <li><a href="https://learn.sonatype.com/learning-paths/increase-developer-productivity/">Increase Developer Productivity</a></li>
+                <li><a href="https://learn.sonatype.com/learning-paths/reduce-oss-risks/">Reduce OSS Risks</a></li>
+                <li><a href="https://learn.sonatype.com/learning-paths/shift-left-secure-coding/">Shift Left: Secure Coding Practices</a></li>
+            </ul>
+        </li>
+        <li>Free</li>
+      </ul>        
