@@ -29,6 +29,28 @@ cloud:
         <li>6 hours course</li>
         <li>e-Learning</li>
         <li>Free</li>
+      </ul>   
+  - title: "Cloud Academy Learning Paths"
+    details: |
+      <img src="../assets/CloudAcademy.png">
+      <ul>
+        <li><a href="https://cloudacademy.com/" target="_blank">Courses Details and Schedule</a></li>
+        <li>Levels: Variable</li>
+        <li>Self Study Package</li>
+        <li>Paths available:
+            <ul>
+                <li><a href="https://cloudacademy.com/learning-paths/microsoft-azure-fundamentals-05062020215806-1625/">Microsoft Azure Fundamentals</a></li>
+                <li><a href="https://cloudacademy.com/learning-paths/3-pillars-azure-cloud-32/">3 Pillars of the Azure Cloud</a></li>
+                <li><a href="https://cloudacademy.com/learning-paths/az-204-exam-preparation-developing-solutions-for-microsoft-azure-1208/">AZ-204 Exam Preparation: Developing Solutions for Microsoft Azure</a></li>
+                <li><a href="https://cloudacademy.com/learning-paths/cloud-academy-azure-services-for-security-engineers-73/">Azure Services for Security Engineers</a></li>                  
+                <li><a href="https://cloudacademy.com/learning-paths/aws-fundamentals-1/">Fundamentals of AWS</a></li>
+                <li><a href="https://cloudacademy.com/learning-paths/technical-essentials-of-aws-1764/">Technical Essentials of AWS</a></li>
+                <li><a href="https://cloudacademy.com/learning-paths/cloud-academy-cloud-practitioner-certification-preparation-for-aws-180/">AWS Cloud Practitioner Certification Preparation</a></li>                
+                <li><a href="https://cloudacademy.com/learning-paths/aws-security-services-42/">AWS Security Services</a></li>                 
+                <li>and many more...</li>
+            </ul>
+        </li>        
+        <li>65.00$/Month (paid yearly) - Access to all the learning paths</li>
       </ul>       
 secureapplications:
   - title: "DevSecOps Foundation (DSOF)"
@@ -103,7 +125,7 @@ secureapplications:
     details: |
       <img src="../assets/Sonatype.PNG">
       <ul>
-        <li><a href="https://learn.sonatype.com/learning-paths" target="_blank">Course Details and Schedule</a></li>
+        <li><a href="https://learn.sonatype.com/learning-paths" target="_blank">Courses Details and Schedule</a></li>
         <li>Level: Beginner</li>
         <li>Self Study Packages</li>
         <li>Paths available:
@@ -114,4 +136,20 @@ secureapplications:
             </ul>
         </li>
         <li>Free</li>
-      </ul>        
+      </ul>  
+  - title: "Cloud Academy Learning Paths"
+    details: |
+      <img src="../assets/CloudAcademy.png">
+      <ul>
+        <li><a href="https://cloudacademy.com/" target="_blank">Courses Details and Schedule</a></li>
+        <li>Levels: Variable</li>
+        <li>Self Study Packages</li>
+        <li>Paths available:
+            <ul>
+                <li><a href="https://cloudacademy.com/learning-paths/qa-foundation-certificate-in-cyber-security-846/">Foundation Certificate in Cyber Security</a></li>     
+                <li><a href="https://cloudacademy.com/learning-paths/introduction-to-ethical-hacking-tools-1260/">Introduction to Ethical Hacking Tools</a></li>                 
+                <li>and many more...</li>
+            </ul>
+        </li>        
+        <li>65.00$/Month (paid yearly) - Access to all the learning paths</li>
+      </ul>       
