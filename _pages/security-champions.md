@@ -4,21 +4,15 @@ layout: no-banner
 permalink: /security-champions/
 ---
 
-<ul class="list-unstyled">
-  <li>
-  <details>
-    <summary>
-		<h1 class="h3">Table of Contents</h1>
-	</summary>
-	<p>
+<section class="panel panel-default">
+	<header class="panel-heading"><h2 class="panel-title">Table of Contents</h2></header>
+	<div class="panel-body">
 		<ul>
-			<li><a href="#security-champions-overview">Security Champions Overview</a></li>
-			<li>
+			<li><a href="#security-champions-overview">Security Champions Overview</a>
 				<ul>
 					<li><a href="#background">Background</a></li>
 					<li><a href="#the-security-champion-objectives">The Security Champion Objectives</a></li>
-					<li><a href="#roles-and-responsibilities-as-a-security-champion">Roles and Responsibilities as a Security Champion</a></li>
-					<li>
+					<li><a href="#roles-and-responsibilities-as-a-security-champion">Roles and Responsibilities as a Security Champion</a>
 						<ul>
 							<li><a href="#roles-and-responsibilities">Roles and Responsibilities</a></li>
 							<li><a href="#implementing-and-managing-security-tools">Implementing and managing security tools</a></li>
@@ -28,8 +22,7 @@ permalink: /security-champions/
 					</li>								
 					<li><a href="#security-tools-management">Security Tools Management</a></li>			
 					<li><a href="#the-end-goal">The End Goal</a></li>			
-					<li><a href="#getting-to-know-our-partners">Getting to know our Partners</a></li>
-					<li>
+					<li><a href="#getting-to-know-our-partners">Getting to know our Partners</a>
 						<ul>
 							<li><a href="#business">Business</a></li>
 							<li><a href="#the-it-security-teams">The IT Security Teams</a></li>
@@ -38,8 +31,7 @@ permalink: /security-champions/
 					<li><a href="#security-assessment-approach">Security Assessment Approach</a></li>	
 				</ul>				
 			</li>
-			<li><a href="#become-a-security-champion">Become a Security Champion</a></li>
-			<li>
+			<li><a href="#become-a-security-champion">Become a Security Champion</a>
 				<ul>
 					<li><a href="#reasons-to-become-a-security-champion">Reasons to become a Security Champion</a></li>
 					<li><a href="#details">Details</a></li>
@@ -48,26 +40,24 @@ permalink: /security-champions/
 			</li>
 			<li><a href="#our-security-champions">Our Security Champions</a></li>
 		</ul>
-	</p>
-  </details>
-  </li>
-</ul>
+	</div>
+</section>
   
-# Security Champions Overview
+## Security Champions Overview
 
-## Background
+### Background
 IT Security is implementing Security by Design which is an is an approach to software and hardware development that seeks to make systems as free of vulnerabilities and impervious to attack as possible.  It is the process that integrates security in the system development lifecycle process (SDLC).  Given today’s dynamic threat environment IT Security can no longer be an afterthought. IITB is therefore integrating Security by Design within ESDC’s SDLC process. This means: 
 *  Project applications to build security in risk-based design; have system-specific security controls and produce security assurance evidence.
 *  IT Security to collaborate with the Solution Team to ensure Security Requirements are applied to the Business Solution; assess security assurance evidence and authorize application operation. 
 
-## The Security Champion Objectives
+### The Security Champion Objectives
 *  To be the Point of Contact representing IT Security in their Solution Team/ Application Development team;
 *  To grow into the Security subject-matter expert in the development / solution or project team;
 *  To become a security influencer and promote the department’s security agenda;
 *  To remind developers that application security is their responsibility. 
 
-## Roles and Responsibilities as a Security Champion
-### Roles and Responsibilities
+### Roles and Responsibilities as a Security Champion
+#### Roles and Responsibilities
 
 - Implementing and managing security tools;
 - Validating and assigning vulnerabilities for mitigation;
@@ -80,13 +70,13 @@ IT Security is implementing Security by Design which is an is an approach to sof
 - Promote best practices
 - Participate actively in a network of Security Champions. 
 
-### Implementing and managing security tools
+#### Implementing and managing security tools
 
 You will have the responsibility to demonstrate to developers how to integrate and configure various application security tools into their CI/CD pipeline and support them if required.
 
 - [Application Security Tools & Guides]({{ '/' | absolute_url }}app-security-tools/)
 
-### Training
+#### Training
 
 Customized training will be offered to the Security Champions and will be provided at a date to be determined. The training will touch on the following topics:
 
@@ -100,7 +90,7 @@ Additional security training is strongly recommended. You can find a list of rec
 
 - [Security Training]({{ '/' | absolute_url }}app-security-training/)
 
-### Collaboration
+#### Collaboration
 
 As a Security Champion, you will be invited to share security information and collaborate on the various platforms of the **Security Champions Network**:
 
@@ -109,19 +99,19 @@ As a Security Champion, you will be invited to share security information and co
 - [Security Champions Network on MS Teams](https://teams.microsoft.com/l/team/19%3aaa7f40a6029a44cdbf864f7dc8bc5a62%40thread.tacv2/conversations?groupId=bea80905-7f0f-432d-9a83-60561c1efcd2&tenantId=9ed55846-8a81-4246-acd8-b1a01abfc0d1)
 - Use and promote the Security Knowledge Base (upcoming)
 
-## Security Tools Management
+### Security Tools Management
 
 - Security Tools implementation strategy
 
-## The End Goal
+### The End Goal
 **Security by Design is a partnership between Business, IITB Solution Team and IT Security.**
 The shared objective is a securely delivered and a securely operated IT solution.  This will be done by having Security Champions: 
 * become Security influencers to promote the Department’s Security agenda;
 * work with their teams and collaborate with IT Security subject matter experts to ensure that security is an integral and continuous part of the development lifecycle. 
 Doing so will allow IITB to conform to the Treasury Board Directive on Security Management, the Policy on Government Security and align with the IT Security Risk Management – A Lifecycle Approach (ITSG-33).
 
-## Getting to know our Partners
-### Business
+### Getting to know our Partners
+#### Business
 **Business Requirements**
 * Identifies needs and risk tolerance
 * Completes Business Needs Document and Security Assessment Questionnaire
@@ -168,9 +158,9 @@ Doing so will allow IITB to conform to the Treasury Board Directive on Security 
 * Conduct Compliance Assessment against required safeguards/controls
 * High Residual Risk solutions to be triaged for attention and action.
 
-# Become a Security Champion
+## Become a Security Champion
 
-## Reasons to become a Security Champion
+### Reasons to become a Security Champion
 
 Do you care about Security in your Solution / Team?
 
@@ -182,7 +172,7 @@ Do you want to become a participating member of the Security Network Champion?
 
 **If you answered yes to one of the above,** then you are a good candidate to be a Security Champion. 
 
-## Details
+### Details
 
 The role of a Security Champion is to be a Point of Contact representing IT Security in your Solution Team/ Application Development Team. 
 
@@ -190,43 +180,32 @@ Security training and access to Security Subject Matter Experts and Knowledge Ba
 
 In addition, you will become a participating member of the Security Champion Network and will have the opportunity to share information and learn from other Security Champions.
 
-## How can I become a Security Champion
+### How can I become a Security Champion
 
 You can send a request directly into the MS Teams [Réseau des champions de la sécurité d'EDSC / ESDC Security Champions Network - Become a Security Champion channel](https://teams.microsoft.com/l/channel/19%3acc911cac1b4b4d1f9f66544125b384ac%40thread.tacv2/Become%2520a%2520Security%2520Champion?groupId=bea80905-7f0f-432d-9a83-60561c1efcd2&tenantId=9ed55846-8a81-4246-acd8-b1a01abfc0d1).
 
-# Our Security Champions
+## Our Security Champions
 
-<ul class="list-unstyled">
+<div class="row wb-eqht">
 {% for product in site.data.security-champions.products %}
-  <li>
-  <details>
-    <summary>
-      <h2 class="h3" id="{{ name | slugify }}">{{ product.name }}</h2>
-    </summary>
+      <section class="col-sm-6 well">
+	  <h3 class="mrgn-tp-0" id="{{ name | slugify }}">{{ product.name }}</h3>
     {% if product.nominatedby %}
-      <p>
-		<span><strong>Nominated by:</strong></span> 
+      <dl>
+		<dt class="mrgn-tp-0"><strong>Nominated by:</strong></dt> 
         {% for nominator in product.nominatedby %}
-          <span class="label label-primary"><a href="mailto:{{ nominator.name }}">{{nominator.name}}</a></span>
+          <dd class="label label-primary"><a href="mailto:{{ nominator.name }}">{{nominator.name}}</a></dd>
         {% endfor %}
-      </p>
     {% endif %}
-    <p>
-		<span><strong>Nominees:</strong></span>
-	</p>
-	<ul class="list-group list-inline row mrgn-lft-0 mrgn-rght-0">
+		<dt><strong>Nominees:</strong></dt>
       {% for nominee in product.nominees %}
-        <li class="list-group-item col-md-4 brdr-rds-0">
-          <h3 class="list-group-item-heading" id="{{ nominee.name | slugify }}"><a href="mailto:{{ nominee.name }}">{{ nominee.name }}</a></h3>
-          <ul class="list-group-item-text list-inline">
+          <dd class="label label-default" id="{{ nominee.name | slugify }}"><a href="mailto:{{ nominee.name }}">{{ nominee.name }}</a>
             {% if nominee.phone %}
-              <li>{{nominee.phone}}</li>
+              <span>{{nominee.phone}}</span>
             {% endif %}
-          </ul>
-        </li>
+		  </dd>
       {% endfor %}
-    </ul>
-  </details>
-  </li>
+	  </dl>
+	  </section>
 {% endfor %}
-</ul>
+</div>
