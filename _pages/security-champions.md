@@ -194,12 +194,12 @@ You can send a request directly into the MS Teams [Réseau des champions de la s
       <dl>
 		<dt class="mrgn-tp-0"><strong>Nominated by:</strong></dt> 
         {% for nominator in product.nominatedby %}
-          <dd class="label label-primary"><a href="mailto:{{ nominator.name }}">{{nominator.name}}</a></dd>
+          <dd class="label label-primary"><a href="mailto:{{ nominator.email }}">{{nominator.name}}</a></dd>
         {% endfor %}
     {% endif %}
 		<dt><strong>Nominees:</strong></dt>
       {% for nominee in product.nominees %}
-          <dd class="label label-default" id="{{ nominee.name | slugify }}"><a href="mailto:{{ nominee.name }}">{{ nominee.name }}</a>
+          <dd class="label label-default" id="{{ nominee.name | slugify }}"><a href="mailto:{{ nominee.email }}">{{ nominee.name }}</a>
             {% if nominee.phone %}
               <span>{{nominee.phone}}</span>
             {% endif %}
