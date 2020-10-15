@@ -2,17 +2,24 @@ products:
   - name: "Artificial Intelligence Centre of Excellence (AI CoE)"
     nominatedby:
       - name: "Mailloux, Annick [NC]"
+        email: annick.mailloux@hrsdc-rhdcc.gc.ca
     nominees:
       - name: "Beauchamp, Francis FB"
+        email: francis.beauchamp@hrsdc-rhdcc.gc.ca      
         phone: "819-654-0514"
       - name: "Turner, Ken M [NC]"
+        email: ken.turner@hrsdc-rhdcc.gc.ca
         phone: "819-654-1301"
       - name: "Guimont, Charles CM"
+        email: charles.guimont@hrsdc-rhdcc.gc.ca
         phone: ""
   - name: "Corporate Correspondance Solutions (CCS)"
     nominatedby:
       - name: "Squibb, Lemonte L [NC]"
+        email: lemonte.squibb@hrsdc-rhdcc.gc.ca
       - name: "Rivard, Stéphane SG [NC]"
+        email: stephane.rivard@hrsdc-rhdcc.gc.ca
     nominees:
       - name: "Nadeau, Jamie J [NC]"
+        email: jamie.nadeau@hrsdc-rhdcc.gc.ca
         phone: "819-654-0673"
