@@ -4,11 +4,11 @@ layout: no-banner
 permalink: /guides/
 ---
 
-{% for guide in site.data.guides %}
+{% for guide in site.data.guides.listofguides %}
 
 <section class="panel panel-default">
 	<div class="panel-heading">
-		<h3 class="panel-title" id="{{ guide.title | slugify }}">{{ guide.title }}</h3>
+		<h2 class="panel-title" id="{{ guide.title | slugify }}">{{ guide.title }}</h2>
 	</div>
 	<div class="panel-body">
 		{% if guide.description %}
