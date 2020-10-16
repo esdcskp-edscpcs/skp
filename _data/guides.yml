@@ -1,0 +1,5 @@
+guides:
+  - title: "Create self-signed certificates on Windows 10"
+    description: |
+      McAfee scans contents of code and triggers when it gets nervous about certain behaviours (like playing in registry or invoking other programs, etc). It can block in-house programs as well as off the shelf software. The simplest solution is to recognize the source as being trusted. For instance, if Adobe issues a piece of software, McAfee will trust it because we trust their reputation (even if some of the code is suspicious). This guide will show you how to create self-signed certificates in order to address this problem.
+    location: "../guides/create-self-signed-certs-win10"       
