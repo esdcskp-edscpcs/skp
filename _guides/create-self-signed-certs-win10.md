@@ -20,7 +20,7 @@ The recommended solution is to issue "Code Signing" certificates to programmers.
    
 2. Once the certificate is created, you should copy it to the Trusted Root Certification Authorities store. 
 
-3. Using Cortana search in Windows 10, type "certificate" until you see the "Manage computer certificates" option and open it as an Administrator. 
+3. Using Cortana search in Windows 10, type "certlm.msc" and **run it as an Administrator**. 
 
 4. In the left panel, navigate to Certificates - Local Computer → Personal → Certificates 
    
@@ -52,5 +52,5 @@ When using **Export-PfxCertificate**, you must either create and use a password 
    
    After you create and export your certificate, you're ready to sign your app package with **SignTool**. For the next step in the manual packaging process, see [Sign an app package using SignTool](https://docs.microsoft.com/en-us/windows/msix/package/sign-app-package-using-signtool). 
    
-> Reference: https://docs.microsoft.com/en-us/windows/msix/package/create-certificate-package-signing
+> Reference: [https://docs.microsoft.com/en-us/windows/msix/package/create-certificate-package-signing](https://docs.microsoft.com/en-us/windows/msix/package/create-certificate-package-signing)
    
