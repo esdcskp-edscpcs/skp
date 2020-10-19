@@ -30,7 +30,7 @@ The recommended solution is to issue "Code Signing" certificates to programmers.
    
 6. In the left panel, open (but don't navigate to) Certificates - Local Computer → Trusted Root Certification Authorities → Certificates 
    
-7. With the right mouse button, drag and drop the certificate to the location opened in the previous step.
+7. With the right mouse button, drag and drop the certificate from **Personal → Certificates** to **Trusted Root Certification Authorities  → Certificates** opened in the previous step.
    
 8. Select "Copy Here" in the popup menu.
 
