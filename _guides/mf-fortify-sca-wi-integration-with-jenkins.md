@@ -10,7 +10,7 @@ date: 2020-03-09
 
 ## Install Fortify SCA
 
-1. Installation guideline can be found in the "ESDC Fortify SCAN 18.20 Install Guide" document
+1. Installation guideline can be found in the [ESDC Fortify SCAN 18.20 Install Guide](SCA_Install_18.20.pdf) document
 2. The agent needs to be restarted
 
 ## Install Fortify Maven plugin (only for Java application)
