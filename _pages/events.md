@@ -10,7 +10,7 @@ permalink: /events/
     <h2 id="next-event">Next Event(s)</h2>
     <p class="lead">The next event is planned for <strong>{{ event.date }}</strong></p>
     <p>{{ event.topic }}<br />Presenter: {{ event.presenter }}</p>
-	<p>{{ even.overview }}</p>
+	<p>{{ event.overview }}</p>
 	<p><a href="{{ event.link }}" class="btn btn-primary">Register</a></p>
 </div>
 {% endfor %}
