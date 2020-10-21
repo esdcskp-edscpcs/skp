@@ -10,7 +10,8 @@ permalink: /events/
     <h2 id="next-event">Events that might interest you</h2>
     <p class="lead">Next event <strong>{{ event.date }}</strong></p>
     <p><h3>{{ event.topic }}</h3>
-	<br />Presenter: {{ event.presenter }}</p>
+	<p>{{ event.date }}<br />
+	Presenter: {{ event.presenter }}</p>
 	<p>{{ event.overview }}</p>
 	<p><a href="{{ event.link }}" class="btn btn-primary">Register</a></p>
 </div>
