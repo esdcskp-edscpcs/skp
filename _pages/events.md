@@ -13,6 +13,7 @@ permalink: /events/
 	<p>{{ even.overview }}</p>
 	<p><a href="{{ event.link }}" class="btn btn-primary">Register</a></p>
 </div>
+{% endfor %}
 {% endif %}
 
 <h2>Past Events</h2>
