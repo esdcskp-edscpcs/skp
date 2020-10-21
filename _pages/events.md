@@ -10,7 +10,7 @@ permalink: /events/
     <p class="lead">The next event is planned for <strong>{{ site.data.events.next.date }}</strong></p>
     <p>{{ site.data.events.next.topic }}<br />Presenter: {{ site.data.events.next.presenter }}</p>
 	<p>{{ site.data.events.next.overview }}</p>
-	<p><a href="{{ site.data.events.next.link" class="btn btn-primary">Register</a></p>
+	<p><a href="{{ site.data.events.next.link }}" class="btn btn-primary">Register</a></p>
 </div>
 {% endif %}
 
