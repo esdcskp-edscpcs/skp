@@ -7,9 +7,10 @@ permalink: /events/
 {% if site.data.events.next %}
 {% for event in site.data.events.next %}
 <div class="well">
-    <h2 id="next-event">Next Event(s)</h2>
-    <p class="lead">The next event is planned for <strong>{{ event.date }}</strong></p>
-    <p>{{ event.topic }}<br />Presenter: {{ event.presenter }}</p>
+    <h2 id="next-event">Events that might interest you</h2>
+    <p class="lead">Next event <strong>{{ event.date }}</strong></p>
+    <p><h3>{{ event.topic }}</h3>
+	<br />Presenter: {{ event.presenter }}</p>
 	<p>{{ event.overview }}</p>
 	<p><a href="{{ event.link }}" class="btn btn-primary">Register</a></p>
 </div>
