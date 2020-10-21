@@ -6,9 +6,14 @@ permalink: /events/
 
 {% if site.data.events.next %}
 <div class="well">
-    <h2 id="next-event">Our Next Event</h2>
-    <p class="lead">The next event is planned for <strong>{{ site.data.events.next.date }}</strong></p>
-    <p>{{ site.data.events.next.overview }}</p>
+    <h2 id="next-event">Events that might interest you</h2>
+{% for event in site.data.events.next %}
+    <h3>{{ event.topic }}</h3>
+	<p><strong>{{ event.date }}</strong><br />
+	Presenter: {{ event.presenter }}</p>
+	<p>{{ event.overview }}</p>
+	<p><a href="{{ event.link }}" class="btn btn-primary">Register</a></p>
+{% endfor %}
 </div>
 {% endif %}
 
