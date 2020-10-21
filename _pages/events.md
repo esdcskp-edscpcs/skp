@@ -5,17 +5,16 @@ permalink: /events/
 ---
 
 {% if site.data.events.next %}
-{% for event in site.data.events.next %}
 <div class="well">
     <h2 id="next-event">Events that might interest you</h2>
-    <p class="lead">Next event <strong>{{ event.date }}</strong></p>
-    <p><h3>{{ event.topic }}</h3>
-	<p>{{ event.date }}<br />
+{% for event in site.data.events.next %}
+    <h3>{{ event.topic }}</h3>
+	<p><strong>{{ event.date }}</strong><br />
 	Presenter: {{ event.presenter }}</p>
 	<p>{{ event.overview }}</p>
 	<p><a href="{{ event.link }}" class="btn btn-primary">Register</a></p>
-</div>
 {% endfor %}
+</div>
 {% endif %}
 
 <h2>Past Events</h2>
