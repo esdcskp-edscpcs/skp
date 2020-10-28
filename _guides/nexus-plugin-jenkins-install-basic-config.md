@@ -18,18 +18,18 @@ The Nexus IQ Server policy engine powers Nexus Firewall, Lifecycle, and Auditor.
    1. Search Nexus Platform in Manage Plugins in Jenkins.
    2. Download now and install after restart.
 
-## 2. Add cert to Jenkins (Skip if already done)
+## Add cert to Jenkins (Skip if already done)
 
-a. Download Nexus IQ Server Certificate (Ask SADE for the URL)
-b. On Jenkins server, open powershell as admin
-c. `cd "<jenkins_install_folder>\jre\bin"`
-d. Enter command
+   1. Download Nexus IQ Server Certificate (Ask SADE for the URL)
+   2. On Jenkins server, open powershell as admin
+   3. `cd "<jenkins_install_folder>\jre\bin"`
+   4. Enter command
 
-   `.\keytool.exe -importcert -alias Sonatype -keystore ..\lib\security\cacerts -file "filepath_of_cert" -trustcacerts`
+      `.\keytool.exe -importcert -alias Sonatype -keystore ..\lib\security\cacerts -file "filepath_of_cert" -trustcacerts`
 	
-e. enter password for keystore - default is "changeit"
-f. Trust the certificate
-g. Restart Jenkins
+   5. enter password for keystore - default is "changeit"
+   6. Trust the certificate
+   7. Restart Jenkins
 
 ## 3. Connecting Jenkins to IQ Server
 
