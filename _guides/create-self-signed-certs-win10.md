@@ -70,10 +70,10 @@ When using **Export-PfxCertificate**, you must either create and use a password 
 
 ### Password Usage
 
-   Update **<Your Password>**, FilePath and **<Thumbprint>** accordingly.
+   Update **Your Password**, **FilePath** and **Thumbprint** accordingly.
    
-   `$password = ConvertTo-SecureString -String **Your Password** -Force -AsPlainText`
-   `Get-ChildItem –Path cert:\CurrentUser\my\**9312C9A6C9EC840697B2B3FA7E6F7C3A23085F10** | Export-PfxCertificate -FilePath **C:\ESDC-test.pfx** -Password $password`
+   `$password = ConvertTo-SecureString -String <Your Password> -Force -AsPlainText`
+   `Get-ChildItem –Path cert:\CurrentUser\my\<9312C9A6C9EC840697B2B3FA7E6F7C3A23085F10> | Export-PfxCertificate -FilePath <C:\ESDC-test.pfx> -Password $password`
    
    ![Export Certificate](../assets/create-self-signed-certs/desktop-export-certificate.PNG)
    
