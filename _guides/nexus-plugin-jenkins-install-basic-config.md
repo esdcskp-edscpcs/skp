@@ -31,38 +31,38 @@ The Nexus IQ Server policy engine powers Nexus Firewall, Lifecycle, and Auditor.
    6. Trust the certificate
    7. Restart Jenkins
 
-## 3. Connecting Jenkins to IQ Server
+## Connecting Jenkins to IQ Server
 
-a. Go to Manage Jenkins
-b. Configure System
-c. Scroll to Sonatype Nexus and add Nexus IQ Server
-d. Add server URL:
+   1. Go to Manage Jenkins
+   2. Configure System
+   3. Scroll to Sonatype Nexus and add Nexus IQ Server
+   4. Add server URL:
 
-   > Ask SADE for the URL
+      > Ask SADE for the URL
 
-e. Add credentials to IQ Server
-f. Test Connection
+   5. Add credentials to IQ Server
+   6. Test Connection
 
-## 4. Adding Sonatype task to Jenkins Freestyle Projects
+## Adding Sonatype task to Jenkins Freestyle Projects
 
-a. In the Build section of your project configuration screen, click the 'Add Build Step' drop-down and select 'Invoke Nexus Policy Evaluation'
-b. Fill in the step field values
+   1. In the Build section of your project configuration screen, click the 'Add Build Step' drop-down and select 'Invoke Nexus Policy Evaluation'
+   2. Fill in the step field values
 
-      i. Stage: Build
-      ii. Select an IQ Application (Use Sandbox application for testing purposes)
+      - Stage: Build
+	  - Select an IQ Application (Use Sandbox application for testing purposes)
 
-c. Save
-d. Run build.
+   3. Save
+   4. Run build.
 
-## 5. Adding Sonatype to Jenkins Pipeline
+## Adding Sonatype to Jenkins Pipeline
 
-	a. In the Pipeline section of a Pipeline project configuration screen, open the Snippet Generator by clicking the 'Pipeline Syntax' link
-	b. In the Steps section of the Snippet Generator window, select 'nexusPolicyEvaluation: Invoke Nexus Policy Evaluation'
-	c. Fill in the step field values
+   1. In the Pipeline section of a Pipeline project configuration screen, open the Snippet Generator by clicking the 'Pipeline Syntax' link
+   2. In the Steps section of the Snippet Generator window, select 'nexusPolicyEvaluation: Invoke Nexus Policy Evaluation'
+   3. Fill in the step field values
 
-		i. Stage: Build
-		ii. Select an IQ Application (Use Sandbox application for testing purposes)
+      - Stage: Build
+	  - Select an IQ Application (Use Sandbox application for testing purposes)
 
-	c. After filling in the step field values, copy the generated snippet into your pipeline script.
+   4. After filling in the step field values, copy the generated snippet into your pipeline script.
 
-	Note: A build of the project must be completed in the workspace before the Nexus Evaluation. Nexus will look for all allowable file extensions and scan them.
+   Note: A build of the project must be completed in the workspace before the Nexus Evaluation. Nexus will look for all allowable file extensions and scan them.
