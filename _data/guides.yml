@@ -9,5 +9,5 @@ listofguides:
     location: "../guides/mf-fortify-sca-wi-integration-with-jenkins"
   - title: "Installation and Basic Configuration of Nexus Platform Plugin for Jenkins"
     description: |
-      Nexus IQ Server is a policy engine powered by [precise intelligence](https://guides.sonatype.com/iqserver/technical-guides/sonatype-vuln-data/) on open source components. It provides a number of tools to improve component usage in your software supply chain, allowing you to automate your processes and achieve accelerated speed to delivery while also increasing product quality.
+      Nexus IQ Server is a policy engine powered by precise intelligence on open source components. It provides a number of tools to improve component usage in your software supply chain, allowing you to automate your processes and achieve accelerated speed to delivery while also increasing product quality.
     location: "../guides/nexus-plugin-jenkins-install-basic-config"       
