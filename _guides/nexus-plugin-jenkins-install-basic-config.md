@@ -11,7 +11,7 @@ The Nexus IQ Server policy engine powers Nexus Firewall, Lifecycle, and Auditor.
    - Share component intelligence with development teams, helping them make better decisions and build better software.
    - Implement a fully-customizable policy engine that lets you define which components are acceptable and which are not.
    - Integrate with popular development tools like Maven, Eclipse, IntelliJ, Visual Studio, GitHub, Bamboo, and Jenkins.
-   - Provide a full suite of supported [REST APIs](https://help.sonatype.com/iqserver/automating/rest-apis) that provide access to core features for custom implementations.
+   - Provide a full suite of supported REST APIs that provide access to core features for custom implementations.
 
 ## Installation
 
@@ -25,9 +25,9 @@ The Nexus IQ Server policy engine powers Nexus Firewall, Lifecycle, and Auditor.
    3. `cd "<jenkins_install_folder>\jre\bin"`
    4. Enter command
 
-      `.\keytool.exe -importcert -alias Sonatype -keystore ..\lib\security\cacerts -file "filepath_of_cert" -trustcacerts`
+      `.\keytool.exe -importcert -alias Sonatype -keystore ..\lib\security\cacerts -file "<filepath_of_cert>" -trustcacerts`
 	
-   5. enter password for keystore - default is "changeit"
+   5. Enter password for keystore - default is "changeit"
    6. Trust the certificate
    7. Restart Jenkins
 
