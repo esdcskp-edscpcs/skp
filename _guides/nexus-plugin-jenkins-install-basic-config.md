@@ -13,10 +13,10 @@ The Nexus IQ Server policy engine powers Nexus Firewall, Lifecycle, and Auditor.
    - Integrate with popular development tools like Maven, Eclipse, IntelliJ, Visual Studio, GitHub, Bamboo, and Jenkins.
    - Provide a full suite of supported [REST APIs](https://help.sonatype.com/iqserver/automating/rest-apis) that provide access to core features for custom implementations.
 
-## 1. Installation
+## Installation
 
-a. Search Nexus Platform in Manage Plugins in Jenkins.
-b. Download now and install after restart.
+   1. Search Nexus Platform in Manage Plugins in Jenkins.
+   2. Download now and install after restart.
 
 ## 2. Add cert to Jenkins (Skip if already done)
 
