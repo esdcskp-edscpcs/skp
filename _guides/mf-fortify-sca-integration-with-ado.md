@@ -55,7 +55,7 @@ SCA_BIN | the path to SCA binary
 
 Installing SCA on the agent from Artifacts
 
-:warning: This presuppose that you have SCA, tar achive, as an artifact available in your Azure Devops project. 
+:warning: This presuppose that you have an SCA tar achive as an artifact available in your Azure Devops project. 
 
 ````
 - stage : SCA
@@ -103,7 +103,7 @@ Installing SCA on the agent from Artifacts
               RunFortifyRulepackUpdate: true
 ````
 
-Scanning a java application
+Scanning a Java application
 ````
 - task: Bash@3
 displayName: Install Maven Plugin
