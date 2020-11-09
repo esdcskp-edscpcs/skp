@@ -12,13 +12,14 @@ date: 2020-11-09
 2. A WebInspect project
 3. A WebInspect scan template
 
-:warning: All three preriquisites are needed. If you are missing one of those you should contact ESDC IT Security
+:warning: All three prerequisites are required. If you are missing one of those, you should contact ESDC IT Security.
 
 
 ## Description
-Scans are done outside of the pipeline agent by WebInspect itself. The pipeline agent is mostly used to do call to the server APIs. 
 
-The pipeline concist of shell commands. The first one is doing the authentication with the WebInspect server, if you need or forgor your credential, you should contact IT Security. The second one ask WebInspect to perfome a scan on your application.
+Scans are done outside of the pipeline agent by WebInspect itself. The pipeline agent is mostly used to do calls to the server APIs. 
+
+The pipeline concists of shell commands. The first one allows the authentication with the WebInspect server, if you need credentials or forgot them, you should contact IT Security. The second one asks WebInspect to perfom a scan on your application.
 
 
 ## Configurable Variables
