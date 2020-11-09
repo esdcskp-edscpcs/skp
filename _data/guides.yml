@@ -11,6 +11,10 @@ listofguides:
     description: |
       Guide on configuring and implementing Microfocus Fortify Source Code Analyser (SCA) into a CI/CD pipeline using Azure DevOps.
     location: "../guides/mf-fortify-sca-integration-with-ado"    
+  - title: "Microfocus Fortify Web Inspect Integration in Azure DevOps"
+    description: |
+      Guide on configuring and implementing Microfocus Fortify Web Inspect (WI) into a CI/CD pipeline using Azure DevOps.
+    location: "../guides/mf-fortify-wi-integration-with-ado"     
   - title: "Installation and Basic Configuration of Nexus Platform Plugin for Jenkins"
     description: |
       Nexus IQ Server is a policy engine powered by precise intelligence on open source components. It provides a number of tools to improve component usage in your software supply chain, allowing you to automate your processes and achieve accelerated speed to delivery while also increasing product quality.
