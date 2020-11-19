@@ -6,13 +6,10 @@ products:
     nominees:
       - name: "Beauchamp, Francis FB"
         email: francis.beauchamp@hrsdc-rhdcc.gc.ca      
-        phone: "819-654-0514"
       - name: "Turner, Ken M [NC]"
         email: ken.turner@hrsdc-rhdcc.gc.ca
-        phone: "819-654-1301"
       - name: "Guimont, Charles CM"
         email: charles.guimont@hrsdc-rhdcc.gc.ca
-        phone: ""
   - name: "Corporate Correspondance Solutions (CCS)"
     nominatedby:
       - name: "Squibb, Lemonte L [NC]"
@@ -22,4 +19,35 @@ products:
     nominees:
       - name: "Nadeau, Jamie J [NC]"
         email: jamie.nadeau@hrsdc-rhdcc.gc.ca
-        phone: "819-654-0673"
+  - name: "Interoperability"
+    nominatedby:
+      - name: "Savoie, Michel M [NC]"
+        email: michel.savoie@hrsdc-rhdcc.gc.ca
+    nominees:
+      - name: "Panicker, Sudheesh SP [NC]"
+        email: sudheesh.panicker@hrsdc-rhdcc.gc.ca
+  - name: "IT Accessibility"
+    nominatedby:
+      - name: "Lambert, Roch R [NC]"
+        email: roch.lambert@hrsdc-rhdcc.gc.ca
+    nominees:
+      - name: "Freitas, Suzy S [NC]"
+        email: suzy.freitas@hrsdc-rhdcc.gc.ca
+  - name: "Multi-Benefits Delivery System (MBDS)"
+    nominatedby:
+      - name: "Sullivan Brad BN [NC]"
+        email: brad.sullivan@hrsdc-rhdcc.gc.ca
+    nominees:
+      - name: "Brady, Christopher C [NC]"
+        email: chris.brady@hrsdc-rhdcc.gc.ca
+  - name: "Small/Medium Web Solutions"
+    nominatedby:
+      - name: "Patey, Colette CA [NC]"
+        email: colette.patey@hrsdc-rhdcc.gc.ca
+    nominees:
+      - name: "Connors, Sean SJ [NC]"
+        email: sean.connors@hrsdc-rhdcc.gc.ca
+      - name: "Gouin, Stéphane S [NC]"
+        email: stephane.gouin@hrsdc-rhdcc.gc.ca
+      - name: "Maingot, Anthony A [NC]"
+        email: anthony.maingot@hrsdc-rhdcc.gc.ca
