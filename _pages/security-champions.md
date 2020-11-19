@@ -4,9 +4,13 @@ layout: no-banner
 permalink: /security-champions/
 ---
 
-<section class="panel panel-default">
-	<header class="panel-heading"><h2 class="panel-title">Table of Contents</h2></header>
-	<div class="panel-body">
+<ul class="list-unstyled">
+  <li>
+  <details>
+    <summary>
+		<h1 class="h3">Table of Contents</h1>
+	</summary>
+	<p>
 		<ul>
 			<li><a href="#security-champions-overview">Security Champions Overview</a>
 				<ul>
@@ -41,7 +45,9 @@ permalink: /security-champions/
 			<li><a href="#our-security-champions">Our Security Champions</a></li>
 		</ul>
 	</div>
-</section>
+  </details>
+  </li>
+</ul>
   
 ## Security Champions Overview
 
@@ -186,26 +192,37 @@ You can send a request directly into the MS Teams [Réseau des champions de la s
 
 ## Our Security Champions
 
-<div class="row wb-eqht">
+<ul class="list-unstyled">
 {% for product in site.data.security-champions.products %}
-      <section class="col-sm-6 well">
-	  <h3 class="mrgn-tp-0" id="{{ name | slugify }}">{{ product.name }}</h3>
+  <li>
+  <details>
+    <summary>
+      <h2 class="h3" id="{{ name | slugify }}">{{ product.name }}</h2>
+    </summary>
     {% if product.nominatedby %}
-      <dl>
-		<dt class="mrgn-tp-0"><strong>Nominated by:</strong></dt> 
+      <p>
+		<span><strong>Nominated by:</strong></span> 
         {% for nominator in product.nominatedby %}
-          <dd class="label label-primary"><a href="mailto:{{ nominator.email }}">{{nominator.name}}</a></dd>
+          <span class="label label-primary"><a href="mailto:{{ nominator.name }}">{{nominator.name}}</a></span>
         {% endfor %}
+      </p>
     {% endif %}
-		<dt><strong>Nominees:</strong></dt>
+    <p>
+		<span><strong>Nominees:</strong></span>
+	</p>
+	<ul class="list-group list-inline row mrgn-lft-0 mrgn-rght-0">
       {% for nominee in product.nominees %}
-          <dd class="label label-default" id="{{ nominee.name | slugify }}"><a href="mailto:{{ nominee.email }}">{{ nominee.name }}</a>
+        <li class="list-group-item col-md-4 brdr-rds-0">
+          <h3 class="list-group-item-heading" id="{{ nominee.name | slugify }}"><a href="mailto:{{ nominee.email }}">{{ nominee.name }}</a></h3>
+          <ul class="list-group-item-text list-inline">
             {% if nominee.phone %}
-              <span>{{nominee.phone}}</span>
+              <li>{{nominee.phone}}</li>
             {% endif %}
-		  </dd>
+          </ul>
+        </li>
       {% endfor %}
-	  </dl>
-	  </section>
+    </ul>
+  </details>
+  </li>
 {% endfor %}
-</div>
+</ul>
