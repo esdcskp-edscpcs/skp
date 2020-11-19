@@ -203,7 +203,7 @@ You can send a request directly into the MS Teams [Réseau des champions de la s
       <p>
 		<span><strong>Nominated by:</strong></span> 
         {% for nominator in product.nominatedby %}
-          <span class="label label-primary"><a href="mailto:{{ nominator.name }}">{{nominator.name}}</a></span>
+          <span class="label label-primary"><a href="mailto:{{ nominator.email }}">{{nominator.name}}</a></span>
         {% endfor %}
       </p>
     {% endif %}
