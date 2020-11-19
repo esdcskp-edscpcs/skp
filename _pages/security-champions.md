@@ -214,11 +214,6 @@ You can send a request directly into the MS Teams [Réseau des champions de la s
       {% for nominee in product.nominees %}
         <li class="list-group-item col-md-4 brdr-rds-0">
           <h3 class="list-group-item-heading" id="{{ nominee.name | slugify }}"><a href="mailto:{{ nominee.email }}">{{ nominee.name }}</a></h3>
-          <ul class="list-group-item-text list-inline">
-            {% if nominee.phone %}
-              <li>{{nominee.phone}}</li>
-            {% endif %}
-          </ul>
         </li>
       {% endfor %}
     </ul>
