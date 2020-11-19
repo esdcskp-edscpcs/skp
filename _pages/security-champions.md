@@ -44,7 +44,7 @@ permalink: /security-champions/
 			</li>
 			<li><a href="#our-security-champions">Our Security Champions</a></li>
 		</ul>
-	</div>
+	</p>
   </details>
   </li>
 </ul>
