@@ -4,13 +4,9 @@ layout: default
 permalink: /security-by-design/
 ---
 
-<ul class="list-unstyled">
-  <li>
-  <details>
-    <summary>
-		<h1 class="h3">Table of Contents</h1>
-	</summary>
-	<p>
+<section class="panel panel-default">
+	<header class="panel-heading"><h2 class="panel-title">Table of Contents</h2></header>
+	<div class="panel-body">
 		<ul>
 		<li><a href="#security-by-design-in-esdc">Security by Design in ESDC</a></li>
 		<li><a href="#security-by-design-according-to-owasp">Security by Design according to OWASP</a><ul>
@@ -34,10 +30,8 @@ permalink: /security-by-design/
 		</ul>
 		</li>
 		</ul>
-	</p>
-  </details>
-  </li>
-</ul>	
+	</div>
+</section>	
 
 # Security by Design in ESDC
 
