@@ -192,32 +192,30 @@ You can send a request directly into the MS Teams [Réseau des champions de la s
 
 ## Our Security Champions
 
-<ul class="list-unstyled">
-{% for product in site.data.security-champions.products %}
-  <li>
-  <details>
-    <summary>
-      <h2 class="h3" id="{{ name | slugify }}">{{ product.name }}</h2>
-    </summary>
-    {% if product.nominatedby %}
-      <p>
-		<span><strong>Nominated by:</strong></span> 
-        {% for nominator in product.nominatedby %}
-          <span class="label label-primary"><a href="mailto:{{ nominator.email }}">{{nominator.name}}</a></span>
-        {% endfor %}
-      </p>
-    {% endif %}
-    <p>
-		<span><strong>Nominees:</strong></span>
-	</p>
-	<ul class="list-group list-inline row mrgn-lft-0 mrgn-rght-0">
-      {% for nominee in product.nominees %}
-        <li class="list-group-item col-md-4 brdr-rds-0">
-          <h3 class="list-group-item-heading" id="{{ nominee.name | slugify }}"><a href="mailto:{{ nominee.email }}">{{ nominee.name }}</a></h3>
-        </li>
-      {% endfor %}
-    </ul>
-  </details>
-  </li>
-{% endfor %}
-</ul>
+<table class="wb-tables table">
+	<thead>
+		<tr>
+			<th>Team</th>
+			<th>Nominated by</th>
+			<th>Nominee</th>
+		</tr>
+	</thead>
+	<tbody>
+	{% for champion in site.data.security-champions.champions %}
+		<tr>
+			<td>
+				{{ product.name }}
+			</td>
+			<td>
+			{% for nominator in product.nominatedby %}
+				<p><a href="mailto:{{ nominator.email }}">{{nominator.name}}</a></p>
+			{% endfor %}
+			</td>
+			<td>
+			{% for nominee in product.nominees %}
+				<p><a href="mailto:{{ nominee.email }}">{{ nominee.name }}</a></p>
+			{% endfor %}
+			</td>
+		</tr>
+	</tbody>
+</table>
