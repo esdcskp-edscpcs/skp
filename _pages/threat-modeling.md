@@ -4,22 +4,16 @@ layout: default
 permalink: /threat-modeling/
 ---
 
-<ul class="list-unstyled">
-  <li>
-  <details>
-    <summary>
-		<h1 class="h3">Table of Contents</h1>
-	</summary>
-	<p>
+<section class="panel panel-default">
+	<header class="panel-heading"><h2 class="panel-title">Table of Contents</h2></header>
+	<div class="panel-body">
 		<ul>
 		<li><a href="#threat-modeling-explained">Threat Modeling explained</a></li>
 		<li><a href="#owasp-threat-modeling-cheat-sheet">OWASP Threat Modeling Cheat Sheet</a></li>
 		<li><a href="#owasp-threat-dragon">OWASP Threat Dragon</a></li>
 		</ul>
-	</p>
-  </details>
-  </li>
-</ul>	
+	</div>
+</section>
 
 # Threat Modeling explained
 
