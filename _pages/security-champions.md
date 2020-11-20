@@ -204,15 +204,15 @@ You can send a request directly into the MS Teams [Réseau des champions de la s
 	{% for champion in site.data.security-champions.champions %}
 		<tr>
 			<td>
-				{{ product.name }}
+				{{ champion.name }}
 			</td>
 			<td>
-			{% for nominator in product.nominatedby %}
+			{% for nominator in champion.nominatedby %}
 				<p><a href="mailto:{{ nominator.email }}">{{nominator.name}}</a></p>
 			{% endfor %}
 			</td>
 			<td>
-			{% for nominee in product.nominees %}
+			{% for nominee in champion.nominees %}
 				<p><a href="mailto:{{ nominee.email }}">{{ nominee.name }}</a></p>
 			{% endfor %}
 			</td>
