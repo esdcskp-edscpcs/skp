@@ -57,4 +57,25 @@ champions:
         email: patrick.martin@hrsdc-rhdcc.gc.ca
     nominees:
       - name: "Tripp, Daniel D [NC]"
-        email: daniel.tripp@hrsdc-rhdcc.gc.ca        
+        email: daniel.tripp@hrsdc-rhdcc.gc.ca     
+  - name: "Job Bank"
+    nominatedby:
+      - name: "McFarland, Al AR [NC]"
+        email: al.mcfarland@hrsdc-rhdcc.gc.ca
+    nominees:
+      - name: "Girard, Stephane S [NC]"
+        email: stephane.girard@hrsdc-rhdcc.gc.ca      
+  - name: "Temporary Foreign Workers (TFW) & National Occupational Classification (NOC)"
+    nominatedby:
+      - name: "McFarland, Al AR [NC]"
+        email: al.mcfarland@hrsdc-rhdcc.gc.ca
+    nominees:
+      - name: "MacDonald, Glenn G [NC]"
+        email: glenn.macdonald@hrsdc-rhdcc.gc.ca 
+  - name: "Partner Solutions"
+    nominatedby:
+      - name: "McFarland, Al AR [NC]"
+        email: al.mcfarland@hrsdc-rhdcc.gc.ca
+    nominees:
+      - name: "Milot, Pierre P [NC]"
+        email: pierre.milot@hrsdc-rhdcc.gc.ca          
