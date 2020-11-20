@@ -4,13 +4,9 @@ layout: no-banner
 permalink: /security-champions/
 ---
 
-<ul class="list-unstyled">
-  <li>
-  <details>
-    <summary>
-		<h1 class="h3">Table of Contents</h1>
-	</summary>
-	<p>
+<section class="panel panel-default">
+	<header class="panel-heading"><h2 class="panel-title">Table of Contents</h2></header>
+	<div class="panel-body">
 		<ul>
 			<li><a href="#security-champions-overview">Security Champions Overview</a>
 				<ul>
@@ -44,10 +40,8 @@ permalink: /security-champions/
 			</li>
 			<li><a href="#our-security-champions">Our Security Champions</a></li>
 		</ul>
-	</p>
-  </details>
-  </li>
-</ul>
+	</div>
+</section>
   
 ## Security Champions Overview
 
@@ -197,7 +191,7 @@ You can send a request directly into the MS Teams [Réseau des champions de la s
 		<tr>
 			<th>Team</th>
 			<th>Nominated by</th>
-			<th>Nominee</th>
+			<th>Nominees</th>
 		</tr>
 	</thead>
 	<tbody>
