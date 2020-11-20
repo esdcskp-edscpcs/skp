@@ -51,3 +51,10 @@ products:
         email: stephane.gouin@hrsdc-rhdcc.gc.ca
       - name: "Maingot, Anthony A [NC]"
         email: anthony.maingot@hrsdc-rhdcc.gc.ca
+  - name: "IT Environments"
+    nominatedby:
+      - name: "Martin, Patrick P [NC]"
+        email: patrick.martin@hrsdc-rhdcc.gc.ca
+    nominees:
+      - name: "Tripp, Daniel D [NC]"
+        email: daniel.tripp@hrsdc-rhdcc.gc.ca        
