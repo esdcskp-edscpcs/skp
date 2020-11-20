@@ -217,5 +217,6 @@ You can send a request directly into the MS Teams [Réseau des champions de la s
 			{% endfor %}
 			</td>
 		</tr>
+	{% endfor %}
 	</tbody>
 </table>
