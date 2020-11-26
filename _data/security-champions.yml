@@ -78,4 +78,13 @@ champions:
         email: al.mcfarland@hrsdc-rhdcc.gc.ca
     nominees:
       - name: "Milot, Pierre P [NC]"
-        email: pierre.milot@hrsdc-rhdcc.gc.ca          
+        email: pierre.milot@hrsdc-rhdcc.gc.ca       
+  - name: "EI Processing Automation"
+    nominatedby:
+      - name: "Guertin, Theresa TA [NC]"
+        email: theresa.guertin@hrsdc-rhdcc.gc.ca
+    nominees:
+      - name: "Northrup, Jon G [NC]"
+        email: jon.northrup@hrsdc-rhdcc.gc.ca        
+      - name: "Laus, Ranka R [NC]"
+        email: ranka.laus@hrsdc-rhdcc.gc.ca         
