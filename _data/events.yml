@@ -1,16 +1,4 @@
 next:
-  - date: "November 12, 2020 from 1:00PM to 2:00PM"
-    topic: "Getting Developers to Upgrade Vulnerable Components With Black Duck & ThreadFix"
-    presenter: "Gautam Baghel, Synopsys & Dan Cornell, ThreadFix"
-    overview: |
-      ThreadFix is a leading solution for managing your application vulnerability data across static, dynamic, interactive tests, and open source software. Black Duck®, a premiere software composition analysis tool, provides insight into the vulnerabilities in your open source application portfolio. Together, Black Duck and ThreadFix create a unified view of your application security program. In this webinar, learn how ThreadFix can provide valuable remediation guidance for the open source vulnerabilities uncovered by Black Duck—and from static and dynamic tests as well. ThreadFix sends all that information automatically to your developers, so they can spend their time resolving issues, not trying to research how.
-    link: https://www.brighttalk.com/webcast/13983/450181?utm_source=threadFix&utm_medium=referral&utm_campaign=ThreadFix%20Webinar
-  - date: "November 19, 2020 from 1:00PM to 4:30PM"
-    topic: "AWS Discovery days: Complimentary 3 hour AWS Training Course"
-    presenter: Mike Garcia
-    overview: |
-      This course is designed to teach business leaders and IT technical professionals the benefits of computing in the AWS Cloud. This course covers AWS services for computing, storage, database management, networking, and content delivery. In this 3-hour course, you will learn how to use AWS services to improve business processes and also gain an understanding of how to benefit from AWS security and compliance services.
-    link: http://www2.webagesolutions.com/l/7422/2020-10-14/7r44rb
 past:
   - date: "September 23, 2020"
     topic: "Shifting Left with Open Source Governance"
