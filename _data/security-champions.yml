@@ -114,4 +114,18 @@ champions:
       - name: "Motty, David C. [NC]"
         email: david.motty@hrsdc-rhdcc.gc.ca   
       - name: "Lafortune, Jean-Luc [NC]"
-        email: jeanluc.lafortune@hrsdc-rhdcc.gc.ca           
+        email: jeanluc.lafortune@hrsdc-rhdcc.gc.ca    
+  - name: "Testing Services"
+    nominatedby:
+      - name: "Geneviève Prévost"
+        email: genevieve.prevost@hrsdc-rhdcc.gc.ca
+    nominees:
+      - name: "Stumpf, Daniel DBJ [NC]"
+        email: daniel.stumpf@hrsdc-rhdcc.gc.ca
+  - name: "Integrity Services Projects"
+    nominatedby:
+      - name: "Joanne Sangiuliano"
+        email: joanne.sangiuliano@hrsdc-rhdcc.gc.ca
+    nominees:
+      - name: "Carter, Eric"
+        email: eric.carter@hrsdc-rhdcc.gc.ca
