@@ -117,14 +117,14 @@ champions:
         email: jeanluc.lafortune@hrsdc-rhdcc.gc.ca    
   - name: "Testing Services"
     nominatedby:
-      - name: "Geneviève Prévost"
+      - name: "Prévost, Geneviève G [NC]"
         email: genevieve.prevost@hrsdc-rhdcc.gc.ca
     nominees:
       - name: "Stumpf, Daniel DBJ [NC]"
         email: daniel.stumpf@hrsdc-rhdcc.gc.ca
   - name: "Integrity Services Projects"
     nominatedby:
-      - name: "Joanne Sangiuliano"
+      - name: "Sangiuliano, Joanne J [NC]"
         email: joanne.sangiuliano@hrsdc-rhdcc.gc.ca
     nominees:
       - name: "Carter, Eric"
